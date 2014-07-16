@@ -1,0 +1,165 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jul 16, 2014, 3:20:14 PM
+    Author     : Administrator
+*/
+
+@font-face {
+    font-family: 'helveticaneue-light';
+    src:url('../fonts/helveticaneue-light-webfont.eot');
+    src:url('../fonts/helveticaneue-light-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/helveticaneue-light-webfont.woff') format('woff'),
+        url('../fonts/helveticaneuelight.ttf') format('truetype'),
+        url('../fonts/helveticaneue-light-webfont.svg#MuseoIcons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+	height: 100%;
+}
+body{
+	font-family: 'helveticaneue-light', arial, sans-serif;
+	font-size: 12px;
+	height: 100%;
+}
+.clear{
+	float: none;
+	clear: both;
+}
+.wrapper{
+	background: url('../img/site_background.jpg') #000 no-repeat top left;
+	background-size: 100%;
+	min-height: 100%;
+}
+
+.container{
+	padding-left: 30px;
+}
+
+/*Navigation*/
+.navbar{
+	margin-bottom: 0px;
+}
+.navbar .container{
+	height: 108px;
+	background-color: #fff;
+}
+.navigation ul li a:hover{
+	background: none;
+}
+
+.navbar .navigation{
+	margin-top: 28px;
+	float: right;
+	margin-right: 10px;
+}
+.navbar .navigation ul li a{
+	color: #6f6f6f;
+	padding-bottom: 5px;
+	margin-left: 10px;
+	padding-right:18px;
+	padding-left: 18px;
+}
+.navbar .navigation ul li.active a{
+	border-bottom: 5px solid #d93714;
+}
+.navbar .navigation ul li a:hover{
+	border-bottom: 5px solid #d93714;
+}
+/*End Navigation*/
+
+/*Dashboard Menu*/
+.dashboard-menu .container{
+	padding: 0px;
+	height: 38px;
+	background: url('../img/dashboard_back.png') transparent repeat-x left top;
+}
+.dashboard-menu .container .navigation{
+	padding: 0px;
+}
+.dashboard-menu .container ul li a{
+	color: #fff;
+	padding: 9px 20px;
+	font-size: 10px;
+	text-transform: uppercase;
+	border-left: 1px solid #b7b9c4;
+	border-right: 1px solid #4e515d;
+}
+.dashboard-menu .container ul li a.first{
+	padding-left: 50px;
+}
+.dashboard-menu .container ul li a.last{
+	padding-right: 34px;
+}
+.dashboard-menu .container ul li.active a{
+	background: url('../img/dashboard_back_hover.png') transparent repeat-x left top;
+}
+/*End Dashboard Menu*/
+/*Dashboard Main*/
+.dashboard-main .container{
+	min-height: 100%;
+	background: url('../img/dashboard_main_back.png') transparent repeat-y left top;
+}
+/*End Dashboard Main*/
+/*Login Page*/
+#login_page .main .container{
+	min-height: 580px;
+	background: url('../img/login_background.png') transparent repeat top left;
+}
+#login_page .main .login_mark{
+	margin-top: 155px;
+	margin-left: 30px;
+}
+#login_page .login-form-wrapper{
+	margin-top: 80px;
+}
+#login_page .login-form-wrapper .login_text{
+	margin-bottom: 6px;
+}
+#login_page #register{
+	display: block;
+	margin-top: 3px;
+	margin-left: -5px;
+}
+#login_page #frm_login .form-item{
+	height: 40px;
+}
+#login_page #frm_login input{
+	border: none;
+	outline: none;
+	color: #999;
+}
+#login_page #frm_login .form-input-item input{
+	padding: 10px 20px;
+	height: 31px;
+	width: 265px;
+	background: url('../img/input_back.png') transparent no-repeat;
+}
+/*End Login Page*/
+
+/*Footer Section*/
+.footer .container{
+	height: 111px;
+	background: url('../img/footer_back.png') transparent repeat top left;
+}
+.footer .navigation{
+	margin-top: 15px;
+}
+.footer ul li a{
+	color: #d93714;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.footer .copyright ul li a{
+	color: #6c6c6c;
+	margin-top: -18px;
+}
+.footer .copyright ul li a:hover{
+	background: none;
+}
+/*End Footer*/
