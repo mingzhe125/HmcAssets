@@ -19,6 +19,17 @@ and open the template in the editor.
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'helveticaneue';
+    src:url('../fonts/helveticaneue.eot');
+    src:url('../fonts/helveticaneue.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/helveticaneue.woff') format('woff'),
+        url('../fonts/helveticaneue.ttf') format('truetype'),
+        url('../fonts/helveticaneue.svg#MuseoIcons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html{
 	height: 100%;
 }
@@ -102,8 +113,38 @@ body{
 /*End Dashboard Menu*/
 /*Dashboard Main*/
 .dashboard-main .container{
-	min-height: 100%;
 	background: url('../img/dashboard_main_back.png') transparent repeat-y left top;
+}
+.dashboard-main .dashboard-mark{
+	color: #fff;
+	margin-top: 28px;
+}
+.dashboard-main .dashboard-mark .first{
+	margin-left: 15px;
+	margin-right: 18px;
+	width: 670px;
+	height: 85px;
+	background: url('../img/dashboard_mark_back.png') transparent repeat left top;
+}
+.dashboard-main .dashboard-mark .first .alpha p{
+	margin-top: 55px;
+	font-family: "Times Roman";
+	font-size: 10px;
+}
+.dashboard-main .dashboard-mark .first .beta h1{
+	font-size: 34px;
+	font-family: "Times Roman";
+	font-style: italic;
+	margin-top: 14px;
+	margin-bottom: 4px;
+}
+.dashboard-main .dashboard-mark .first .beta h1 span{
+	font-size: 25px;
+	font-style: normal;
+}
+.dashboard-main .dashboard-mark .first .beta p{
+	font-family: "helveticaneue";
+	font-size: 10px;
 }
 /*End Dashboard Main*/
 /*Login Page*/
