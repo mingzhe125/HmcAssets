@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -13,10 +12,13 @@
 		<!-- Bootstrap core CSS -->
 		<link href="./assets/css/bootstrap.css" rel="stylesheet">
 		<link href="./assets/css/bootstrap-theme.css" rel="stylesheet">
+		<link href="./assets/css/bootstrap-select.css" rel="stylesheet">
 		<link href="./assets/css/main.css?123" rel="stylesheet">
 
 		<script type="text/javascript" src="assets/js/jquery-2.1.1.min.js"></script>
 		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="assets/js/bootstrap-select.min.js"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 		<script type="text/javascript" src="assets/js/main.js"></script>
 
 	</head>
@@ -61,29 +63,230 @@
 			</section>
 			<section class="dashboard-main">
 				<div class="container">
-					<section class="dashboard-mark col-md-12">
+					<section class="dashboard-mark col-md-12 col-sm-12">
 						<div class="col-md-9 first">
-							<div class="col-md-6 alpha">
+							<div class="col-md-6 alpha col-sm-12">
 								<p>DATABASE LAST UPDATED JULY 10, 7:25AM PST.</p>
 							</div>
-							<div class="col-md-6 beta">
+							<div class="col-md-6 beta col-sm-12">
 								<h1>Welcome! <span>John Smith.</span></h1>
 								<p>Thursday, July 10, 2014</p>
 							</div>
 						</div>
-						<div class="col-md-2">
+						<div class="col-md-3 row">
 							<img src="assets/img/dashboard_mark.png" alt="" />
 						</div>
 					</section>
 
 					<section class="inner-content col-md-12">
-						<div class="col-md-4 first">
-							<div class="search_box">
-
+						<div class="col-md-4 primary">
+							<!--Search Box-->
+							<div class="search-box default-box col-md-12">
+								<h3 class="entry-title">Preferred Investor Program&nbsp;&nbsp;<span>search</span></h3>
+								<form id="frm_search" name="frm_search" action="search_result.html">
+									<div class="form-item">
+										<label for="sale_type">Sale Type</label>
+										<select name="sale_type" id="sale_type" class="selectpicker">
+											<option value=""></option>
+											<option value="fund">Fund</option>
+											<option value="send">Send</option>
+										</select>
+									</div>
+									<div class="form-item">
+										<label for="beds">Beds</label>
+										<select name="beds" id="beds" class="selectpicker">
+											<option value=""></option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+										</select>
+									</div>
+									<div class="form-item">
+										<label for="baths">Baths</label>
+										<select name="baths" id="baths" class="selectpicker">
+											<option value=""></option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+										</select>
+									</div>
+									<div class="form-item">
+										<label for="minsq">min(sqft)</label>
+										<select name="minsq" id="minsq" class="selectpicker">
+											<option value=""></option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+										</select>
+									</div>
+									<div class="form-item">
+										<label for="maxsq">max(sqft)</label>
+										<select name="maxsq" id="maxsq" class="selectpicker">
+											<option value=""></option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+										</select>
+									</div>
+									<div class="form-item">
+										<label for="state">state</label>
+										<select name="state" id="state" class="selectpicker">
+											<option value=""></option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+										</select>
+									</div>
+									<div class="form-item">
+										<label for="county">county</label>
+										<select name="county" id="county" class="selectpicker">
+											<option value=""></option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+										</select>
+									</div>
+									<div class="form-item">
+										<label for="city">city</label>
+										<select name="city" id="city" class="selectpicker">
+											<option value=""></option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+										</select>
+									</div>
+									<div class="form-item">
+										<label for="address">address</label>
+										<input type="text" name="address" id="address" class="text-field" />
+									</div>
+									<div class="form-item">
+										<label>Display</label>
+										<div class="option-group">
+											<input type="radio" name="display" id="list" value="list" />
+											<label for="list">List</label>
+											<input type="radio" name="display" id="map" value="map" />
+											<label for="map">Map</label>
+										</div>
+									</div>
+									<input type="image" class="btn_search" src="assets/img/btn_search.png" alt="search" />
+								</form>
+							</div>
+							<!--Map Box-->
+							<div class="map-box default-box col-md-12">
+								<h3 class="entry-title">Preferred Investor Program&nbsp;&nbsp;<span>map</span></h3>
+								<div id="map-box"></div>
+								<a href="#" class="btn_display_listing">
+									<img alt="" src="assets/img/btn_display_listing.png" />
+								</a>
+							</div>
+							<!--Favorites Box-->
+							<div class="favorite-box green-box col-md-12">
+								<div class="col-md-12">
+									<h3 class="entry-title">Preferred Investor Program&nbsp;&nbsp;<span>MY Favorites</span></h3>
+									<div class="line"></div>
+								</div>
+								<div class="properties col-md-12">
+									<div class="property col-md-12">
+										<div class="col-md-4 row">
+											<img alt="" src="assets/sample/house_thumb.png" />
+										</div>
+										<div class="col-md-2"></div>
+										<div class="col-md-8 row property-info">
+											<p>
+												<strong>5943 Greenfield Avenue</strong><br/>
+												<strong>Riverside, CA 92506</strong><br/>
+												REO LISTED  /  MLS: DW14130700
+											</p>
+											<ul class="property-links navbar-nav">
+												<li class="alpha"><a href="#" class="icon view"></a></li>
+												<li><a href="#" class="icon contact"></a></li>
+												<li><a href="#" class="icon buy"></a></li>
+												<li class="beta"><a href="#" class="icon delete"></a></li>
+											</ul>
+										</div>
+										<div class="line col-md-12"></div>
+									</div>
+									<div class="property col-md-12">
+										<div class="col-md-4 row">
+											<img alt="" src="assets/sample/house_thumb.png" />
+										</div>
+										<div class="col-md-2"></div>
+										<div class="col-md-8 row property-info">
+											<p>
+												<strong>5943 Greenfield Avenue</strong><br/>
+												<strong>Riverside, CA 92506</strong><br/>
+												REO LISTED  /  MLS: DW14130700
+											</p>
+											<ul class="property-links navbar-nav">
+												<li class="alpha"><a href="#" class="icon view"></a></li>
+												<li><a href="#" class="icon contact"></a></li>
+												<li><a href="#" class="icon buy"></a></li>
+												<li class="beta"><a href="#" class="icon delete"></a></li>
+											</ul>
+										</div>
+										<div class="line col-md-12"></div>
+									</div>
+									<div class="property col-md-12">
+										<div class="col-md-4 row">
+											<img alt="" src="assets/sample/house_thumb.png" />
+										</div>
+										<div class="col-md-2"></div>
+										<div class="col-md-8 row property-info">
+											<p>
+												<strong>5943 Greenfield Avenue</strong><br/>
+												<strong>Riverside, CA 92506</strong><br/>
+												REO LISTED  /  MLS: DW14130700
+											</p>
+											<ul class="property-links navbar-nav">
+												<li class="alpha"><a href="#" class="icon view"></a></li>
+												<li><a href="#" class="icon contact"></a></li>
+												<li><a href="#" class="icon buy"></a></li>
+												<li class="beta"><a href="#" class="icon delete"></a></li>
+											</ul>
+										</div>
+										<div class="line col-md-12"></div>
+									</div>
+									<div class="property warning col-md-12">
+										<div class="line top col-md-12"></div>
+										<div class="col-md-4 row">
+											<img alt="" src="assets/sample/house_thumb.png" />
+										</div>
+										<div class="col-md-2"></div>
+										<div class="col-md-8 row property-info">
+											<p>
+												<strong>5943 Greenfield Avenue</strong><br/>
+												<strong>Riverside, CA 92506</strong><br/>
+												REO LISTED  /  MLS: DW14130700
+											</p>
+											<ul class="property-links navbar-nav">
+												<li class="alpha"><a href="#" class="icon view"></a></li>
+												<li><a href="#" class="icon contact"></a></li>
+												<li><a href="#" class="icon buy"></a></li>
+												<li class="beta"><a href="#" class="icon delete"></a></li>
+											</ul>
+										</div>
+										<div class="line col-md-12"></div>
+									</div>
+									<div class="property col-md-12">
+										<div class="col-md-4 row">
+											<img alt="" src="assets/sample/house_thumb.png" />
+										</div>
+										<div class="col-md-2"></div>
+										<div class="col-md-8 row property-info">
+											<p>
+												<strong>5943 Greenfield Avenue</strong><br/>
+												<strong>Riverside, CA 92506</strong><br/>
+												REO LISTED  /  MLS: DW14130700
+											</p>
+											<ul class="property-links navbar-nav">
+												<li class="alpha"><a href="#" class="icon view"></a></li>
+												<li><a href="#" class="icon contact"></a></li>
+												<li><a href="#" class="icon buy"></a></li>
+												<li class="beta"><a href="#" class="icon delete"></a></li>
+											</ul>
+										</div>
+										<div class="line col-md-12"></div>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div class="col-md-8 second">
-
+						<div class="col-md-8 secondary">
+							<div class="listing-box col-md-12 row-offcanvas">
+								<h2 class="entry-title">New Listing</h2>
+							</div>
 						</div>
 					</section>
 				</div>
