@@ -472,6 +472,7 @@ a{
 .mynote-box .note-item .note-info{
 	text-transform: uppercase;
 	padding-bottom: 8px;
+	font-size: 10px;
 }
 .mynote-box .note-item .entry-title span{
 	font-family: 'HelveticaNeueLight';
@@ -482,11 +483,11 @@ a{
 	margin: 0px 10px;
 }
 .mynote-box .note-info span.separator{
-	margin: 0px 2px;
+	margin: 0px 3px;
 }
 @-moz-document url-prefix(){
 	.mynote-box .note-info span.separator{
-		margin: 0px 1px;
+		margin: 0px 2px;
 	}
 }
 .mynote-box .note-item .entry-content{
