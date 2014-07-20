@@ -100,12 +100,9 @@ a{
 
 /*Pagination*/
 .pagination{
-	display: table;
-	width: 100%;
-	margin: 15px 0px;
+	margin: 15px auto;
 }
 .pagination li{
-	display: table-cell;
 }
 .pagination > li > a, .pagination > li > span{
 	border: none;
@@ -120,6 +117,10 @@ a{
 .pagination > li:hover >a{
 	background: none;
 	border: none;
+}
+.pagination .prev a, .pagination .next a{
+	background: none!important;
+	color: #2A6496!important;
 }
 .wrapper{
 	background: url('../img/site_background.jpg') #000 no-repeat top left;
@@ -197,6 +198,12 @@ a{
 	text-transform: uppercase;
 	border-left: 1px solid #b7b9c4;
 	border-right: 1px solid #4e515d;
+}
+@-moz-document url-prefix() {
+    .dashboard-menu .container ul li a{
+		padding: 9px 18px;
+	}
+
 }
 .dashboard-menu .container ul li a.first{
 	padding-left: 50px;
@@ -622,7 +629,7 @@ a{
 	width: 15%;
 }
 .listing-item .listing-address{
-	width: 33%;
+	width: 31%;
 }
 .listing-item .listing-address .strong{
 	font-family: 'HelveticaNeueBold';
@@ -632,17 +639,17 @@ a{
 	width: 7%;
 }
 .listing-item .listing-sale-value{
-	width: 18%;
+	width: 15%;
 }
 .listing-item .listing-sqr-type{
 	font-family: 'HelveticaNeueBold';
 	width: 7%;
 }
 .listing-item .listing-sqr-value{
-	width: 18%;
+	width: 17%;
 }
 .listing-item .listing-control{
-	width: 10%;
+	width: 8%;
 }
 .listing-box .listings .line.beta{
 	height: 5px;
@@ -657,6 +664,7 @@ a{
 }
 .listing-wrapper{
 	float: left;
+	width: 100%;
 }
 .listing-wrapper.expand{
 	background-color: #5083a7;
@@ -1027,6 +1035,11 @@ a{
 	width: 82%;
 	position: relative;
 	top: -3px;
+}
+@-moz-document url-prefix() {
+	.investor-register-box .investor-form .check-group label{
+		width: 80%;
+	}
 }
 .investor-register-box .investor-form .two button{
 	float: right;
