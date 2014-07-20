@@ -1,10 +1,10 @@
-<div class="special-offers-box col-md-12">
-	<h3 class="entry-title col-md-12">Preferred Investor Program&nbsp;&nbsp; <span>SPECIAL OFFERS</span></h3>
+<div class="special-offers-box col-xs-12">
+	<h3 class="entry-title col-xs-12">Preferred Investor Program&nbsp;&nbsp; <span>SPECIAL OFFERS</span></h3>
 	<div class="special-info">
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida tincidunt lacus, a elementum nibh. Curabitur porta tortor sit amet sem malesuada, nec gravida urna llamcorper. Integer sit amet porttitor tortor. Phasellus dapibus commodo nulla. Pellentesque pulvinar mattis turpis, non mattis nisi placerat quis. Sed tempor purus urna, vestibulum suscipit lectus convallis vitae. Morbi hendrerit, orci eget cursus sodales, turpis diam elementum magna, eu dapibus nulla felis eget mi. Ut vel leo blandit neque luctus pretium et in mauris.  
 	</div>
 	<div class="listing-detail">
-		<div class="listing-detail-inner col-md-12">
+		<div class="listing-detail-inner col-xs-12">
 			<div>
 				<img src="assets/sample/house_biger.png" alt="" />
 			</div>
@@ -20,7 +20,7 @@
 				<a href="#">Request financing quote from titan</a>
 			</div>
 		</div>
-		<div class="listing-detail-bottom col-md-12">
+		<div class="listing-detail-bottom col-xs-12">
 			<div class="listing-detail-info">
 				<div class="info-item">
 					<p class="one">Type/Year Built</p>
@@ -65,9 +65,9 @@
 			</div>
 		</div>
 	</div>
-	<div class="line col-md-12"></div>
-	<div class="special-offers-detail col-md-12">
-		<h3 class="entry-title col-md-12">Preferred Investor Program&nbsp;&nbsp; <span>SPECIAL OFFERS</span></h3>
+	<div class="line col-xs-12"></div>
+	<div class="special-offers-detail col-xs-12">
+		<h3 class="entry-title col-xs-12">Preferred Investor Program&nbsp;&nbsp; <span>SPECIAL OFFERS</span></h3>
 		<div class="special-offers-detail-item first">
 			<img alt="" src="assets/sample/offers-blank.png" />
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Psellus gravida tincidunt lacus, a elementum nibh. Curabitur porta tortor sit amet sem maleda, nec gravida urna rper. Integer sit amet poitor tortor. Phasellus pibus commodo nulla. Peue pulvinar mattis turpis, non mattis nisi placerat quis. Sed tempor purus urna, </p>
@@ -77,5 +77,5 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Psellus gravida tincidunt lacus, a elementum nibh. Curabitur porta tortor sit amet sem maleda, nec gravida urna rper. Integer sit amet poitor tortor. Phasellus pibus commodo nulla. Peue pulvinar mattis turpis, non mattis nisi placerat quis. Sed tempor purus urna, </p>
 		</div>
 	</div>
-	<div class="line col-md-12"></div>
+	<div class="line col-xs-12"></div>
 </div>

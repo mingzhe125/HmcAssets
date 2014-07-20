@@ -31,7 +31,7 @@ require_once './include/functions.php';
 		<div class="wrapper">
 			<header class="navbar navbar-collapse">
 				<div class="container">
-					<div class="navbar-header col-md-4">
+					<div class="navbar-header col-xs-4">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
@@ -39,7 +39,7 @@ require_once './include/functions.php';
 						</button>
 						<a class="navbar-brand" href="index.php"><img id="logo" src="assets/img/logo.png" alt="HMC Assets" /></a>
 					</div>
-					<div class="navbar-collapse collapse navigation col-md-8">
+					<div class="navbar-collapse collapse navigation col-xs-8">
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="index.php">Home</a></li>
 							<li><a href="#about">About Us</a></li>
@@ -52,7 +52,7 @@ require_once './include/functions.php';
 			</header>
 			<section class="dashboard-menu">
 				<div class="container">
-					<div class="navbar-collapse collapse navigation col-md-8">
+					<div class="navbar-collapse collapse navigation col-xs-8">
 						<?php
 						$current_url = $_SERVER["REQUEST_URI"];
 						?>

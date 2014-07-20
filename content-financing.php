@@ -1,6 +1,6 @@
-<div class="financing-box default-box col-md-12">
+<div class="financing-box default-box col-xs-12">
 	<h3 class="entry-title">Preferred Investor Program&nbsp;&nbsp;<span>Financing</span></h3>
-	<div class="financing-item col-md-12">
+	<div class="financing-item col-xs-12">
 		<h1>TITAN CAPITAL</h1>
 		<p>We INTERNALLY APPRAISE AND FUND OUR OWN LOANS, AND offer <span>HARD-MONEY LOANS</span> FOR QUALIFIED PROPERTIES FOR LOAN AMOUNTS UP TO $3MM.</p>
 		<ul class="navbar-nav">
@@ -10,7 +10,7 @@
 		</ul>
 	</div>
 	<div class="financing-info">
-		<img alt="" src="assets/sample/financing-first.png" />
+		<img alt="" src="assets/img/financing-first.png" />
 		<P>
 			<span>Whit McCarthy</span><br/>
 			Business Development<br/>
@@ -19,11 +19,11 @@
 			whit.mccarthy@titan-cap.com
 		</P>
 	</div>
-	<div class="financing-item col-md-12">
+	<div class="financing-item col-xs-12">
 		<h1>CIVIC HOME LOANS</h1>
 	</div>
 	<div class="financing-info">
-		<img alt="" src="assets/sample/financing-second.png" />
+		<img alt="" src="assets/img/financing-second.png" />
 		<P>
 			<span>Jack Helfrich</span><br/>
 			Business Development<br/>

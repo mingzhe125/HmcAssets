@@ -2,12 +2,12 @@
 $rows = isset($_SESSION['list_num']) ? $_SESSION['list_num'] : 39;
 ?>
 <div class="listings">
-	<div class="col-md-12">
-		<div class="line alpha col-md-12"></div>
+	<div class="col-xs-12">
+		<div class="line alpha col-xs-12"></div>
 	</div>
 	<?php for ($i = 1; $i < $rows; $i++): ?>
 		<div class="listing-wrapper <?php echo ($i == 3 ? 'special' : ''); ?>">
-			<div class="listing-item col-md-12">
+			<div class="listing-item col-xs-12">
 				<div class="listing-photo">
 					<img src="assets/sample/house_thumb.png" alt="" />
 				</div>
@@ -37,10 +37,10 @@ $rows = isset($_SESSION['list_num']) ? $_SESSION['list_num'] : 39;
 				</div>
 			</div>
 			<?php if ($i < $rows - 1): ?>
-				<div class="col-md-12"><div class="line beta col-md-12"></div></div>
+				<div class="col-xs-12"><div class="line beta col-xs-12"></div></div>
 			<?php endif; ?>
 			<div class="listing-detail">
-				<div class="listing-detail-inner col-md-12">
+				<div class="listing-detail-inner col-xs-12">
 					<div>
 						<img src="assets/sample/house_biger.png" alt="" />
 					</div>
@@ -56,7 +56,7 @@ $rows = isset($_SESSION['list_num']) ? $_SESSION['list_num'] : 39;
 						<a href="#">Request financing quote from titan</a>
 					</div>
 				</div>
-				<div class="listing-detail-bottom col-md-12">
+				<div class="listing-detail-bottom col-xs-12">
 					<div class="listing-detail-info">
 						<div class="info-item">
 							<p class="one">Type/Year Built</p>
@@ -100,8 +100,8 @@ $rows = isset($_SESSION['list_num']) ? $_SESSION['list_num'] : 39;
 						</div>
 					</div>
 				</div>
-				<div class="col-md-12">
-					<div class="property-note col-md-12">
+				<div class="col-xs-12">
+					<div class="property-note col-xs-12">
 						<h4 class="entry-title">MY PROPERTY NOTES on  July 12, 2014 308 PM PST</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida tincidunt lacus, a elementum nibh. Curabitur porta tortor sit amet sem malesuada, nec gravida urna ullamcorper. Integer sit amet porttitor tortor. Phasellus dapibus commodo nulla. Pellentesque pulvinar mattis turpis, non mattis nisi placerat quis. Sed tempor purus urna, vestibulum suscipit lectus convallis vitae. Morbi hendrerit, orci eget cursus sodales, turpis diam elementum magna, eu dapibus nulla felis eget mi. Ut vel leo blandit neque luctus pretium et in mauris. Curabitur dapibus aliquet mattis. Phasellus eu adipiscing mi, ac mattis nisi. Vivamus eget ultricies quam.</p>
 					</div>	
@@ -109,7 +109,7 @@ $rows = isset($_SESSION['list_num']) ? $_SESSION['list_num'] : 39;
 			</div>
 		</div>
 	<?php endfor; ?>
-	<div class="col-md-12">
+	<div class="col-xs-12">
 		<div class="line alpha"></div>
 	</div>
 </div>

@@ -24,7 +24,7 @@
 		<div class="wrapper" id="login_page">
 			<header class="navbar navbar-collapse">
 				<div class="container">
-					<div class="navbar-header col-md-4">
+					<div class="navbar-header col-xs-4">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
@@ -32,7 +32,7 @@
 						</button>
 						<a class="navbar-brand" href="index.html"><img id="logo" src="assets/img/logo.png" alt="HMC Assets" /></a>
 					</div>
-					<div class="navbar-collapse collapse navigation col-md-8">
+					<div class="navbar-collapse collapse navigation col-xs-8">
 						<ul class="nav navbar-nav navbar-right">
 							<li class="active"><a href="#">Home</a></li>
 							<li><a href="#about">About Us</a></li>
@@ -45,38 +45,38 @@
 			</header>
 			<section class="main">
 				<div class="container">
-					<div class="col-md-6">
+					<div class="col-xs-6">
 						<img class="login_mark" src="./assets/img/login_mark.png" alt="" />
 					</div>
-					<div class="col-md-6">
-						<div class="col-md-9 login-form-wrapper">
+					<div class="col-xs-6">
+						<div class="col-xs-9 login-form-wrapper">
 							<div class="form-item">
-								<div class="col-md-7">
+								<div class="col-xs-7">
 									<img class="login_text" src="./assets/img/login_text.png" alt="" />
 								</div>
-								<div class="col-md-5">
+								<div class="col-xs-5">
 									<a href="#" name="register" id="register"><img src="./assets/img/btn_register.png" alt="Register" /></a>
 								</div>
 							</div>
 							<form id="frm_login" name="frm_login" action="dashboard.php">
-								<div class="col-md-12 form-item form-input-item">
+								<div class="col-xs-12 form-item form-input-item">
 									<input type="text" id="inputName" placeholder="Username">
 								</div>
-								<div class="col-md-12 form-item form-input-item">
+								<div class="col-xs-12 form-item form-input-item">
 									<input type="password" id="inputPassword" placeholder="Password">
 								</div>
-								<div class="col-md-12 text-right form-item text-right">
+								<div class="col-xs-12 text-right form-item text-right">
 									<input type="image" src="./assets/img/btn_login.png" name="login" id="login" alt="Login"/>
 								</div>
 							</form>
 						</div>
-						<div class="col-md-3"></div>
+						<div class="col-xs-3"></div>
 					</div>
 				</div>
 			</section>
 			<footer class="footer">
 				<div class="container">
-					<div class="navbar-collapse navigation col-md-12 col-lg-12">
+					<div class="navbar-collapse navigation col-xs-12 col-lg-12">
 						<ul class="nav navbar-nav">
 							<li class="active"><a href="#">Home</a></li>
 							<li><a>|</a></li>
@@ -94,7 +94,7 @@
 						</ul>
 					</div><!--/.navbar-collapse -->
 					<div class="clear"></div>
-					<div class="navbar-collapse copyright col-md-12 col-lg-12">
+					<div class="navbar-collapse copyright col-xs-12 col-lg-12">
 						<ul class="nav navbar-nav">
 							<li><a>© 2010-2014. HMC Assets, LLC.</a></li>
 							<li><a>|</a></li>

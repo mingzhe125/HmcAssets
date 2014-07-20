@@ -70,20 +70,6 @@ $(document).ready(function() {
 		}
 	});
 
-	if ($('#map-box').length > 0) {
-		var defLocation = {
-			lat: 51.923481,
-			lon: 4.469265
-		};
-		var defLatlng = new google.maps.LatLng(defLocation.lat, defLocation.lon);
-		var mapOptions = {
-			center: defLatlng,
-			zoom: 15,
-			mapTypeId: google.maps.MapTypeId.ROADMAP
-		};
-		map = new google.maps.Map(document.getElementById("map-box"), mapOptions);
-	}
-
 	if ($('#my_favorites_notes_page').length === 0) {
 		$('.property-note').hide();
 	}

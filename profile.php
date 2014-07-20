@@ -9,8 +9,8 @@ $_SESSION['list_num'] = 39;
 		<!--Top Mark-->
 		<?php include_once 'content-dashboard-mark.php'; ?>
 
-		<section class="inner-content col-md-12">
-			<div class="col-md-4 primary">
+		<section class="inner-content col-xs-12">
+			<div class="col-xs-4 primary">
 				<!--Favorites Box-->
 				<?php include_once 'content-favorite.php'; ?>
 				<!--My Notes Box-->
@@ -18,7 +18,7 @@ $_SESSION['list_num'] = 39;
 			</div>
 
 			<!--Listing Box Section-->
-			<div class="col-md-8 secondary">
+			<div class="col-xs-8 secondary">
 				<?php include_once 'content-investor-registy.php'; ?>
 				<?php include_once 'content-investor-properties.php'; ?>
 			

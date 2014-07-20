@@ -1,4 +1,4 @@
-<div class="search-box default-box col-md-12">
+<div class="search-box default-box col-xs-12">
 	<h3 class="entry-title">Preferred Investor Program&nbsp;&nbsp;<span>search</span></h3>
 	<form id="frm_search" name="frm_search" action="search_result.php">
 		<div class="form-item">

@@ -8,23 +8,23 @@ $_SESSION['note_num'] = 5;
 		<!--Top Mark-->
 		<?php include_once 'content-dashboard-mark.php'; ?>
 
-		<section class="inner-content col-md-12">
-			<div class="map-result-box col-md-12">
-				<div class="col-md-12">
+		<section class="inner-content col-xs-12">
+			<div class="map-result-box col-xs-12">
+				<div class="col-xs-12">
 					<h1 class="entry-title">Preferred Investor Program <span>Map</span></h1>	
 				</div>
 				<div  id="map-result-box"></div>
 			</div>
-			<div class="col-md-4 primary">
+			<div class="col-xs-4 primary">
 				<!--Favorites Box-->
 				<?php include_once 'content-favorite.php'; ?>
 			</div>
-			<div class="col-md-4 primary">
+			<div class="col-xs-4 primary">
 				<!--My Notes Box-->
 				<?php include_once 'content-note.php'; ?>
 			</div>
 			<!--Listing Box Section-->
-			<div class="third col-md-4">
+			<div class="third col-xs-4">
 				<!--Search Box-->
 				<?php include_once 'content-search.php'; ?>
 				<?php include_once 'content-financing.php'; ?>

@@ -52,6 +52,9 @@ a{
 	color: #0c0c0c;
 	text-decoration: none;
 }
+.container{
+	width: 978px;
+}
 .clear{
 	float: none;
 	clear: both;
@@ -358,8 +361,11 @@ a{
 }
 #map-box{
 	width: 100%;
-	height: 250px;
+	height: 140px;
 	margin-bottom: 10px;
+}
+#map-box img{
+	width: 100%;
 }
 .map-box .btn_display_listing{
 	float: right;

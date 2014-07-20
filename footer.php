@@ -1,6 +1,6 @@
 <footer class="footer">
 				<div class="container">
-					<div class="navbar-collapse navigation col-md-12 col-lg-12">
+					<div class="navbar-collapse navigation col-xs-12 col-lg-12">
 						<ul class="nav navbar-nav">
 							<li class="active"><a href="#">Home</a></li>
 							<li><a>|</a></li>
@@ -18,7 +18,7 @@
 						</ul>
 					</div><!--/.navbar-collapse -->
 					<div class="clear"></div>
-					<div class="navbar-collapse copyright col-md-12 col-lg-12">
+					<div class="navbar-collapse copyright col-xs-12 col-lg-12">
 						<ul class="nav navbar-nav">
 							<li><a>© 2010-2014. HMC Assets, LLC.</a></li>
 							<li><a>|</a></li>
