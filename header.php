@@ -23,7 +23,6 @@ require_once './include/functions.php';
 		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="assets/js/bootstrap-select.min.js"></script>
 		<script type="text/javascript" src="assets/js/jquery.bootpag.min.js"></script>
-		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 		<script type="text/javascript" src="assets/js/infobox.js"></script>
 		<script type="text/javascript" src="assets/js/main.js"></script>
 	</head>
