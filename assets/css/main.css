@@ -99,6 +99,9 @@ a{
 }
 
 /*Pagination*/
+#page-selection-listing, #page-selection-note, #page-selection-property{
+	text-align: center;
+}
 .pagination{
 	margin: 15px auto;
 }
@@ -118,9 +121,12 @@ a{
 	background: none;
 	border: none;
 }
-.pagination .prev a, .pagination .next a{
+.pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus{
+	cursor:text;
+}
+.pagination .prev.disabled a, .pagination .next.disabled a{
 	background: none!important;
-	color: #2A6496!important;
+	color: #333!important;
 }
 .wrapper{
 	background: url('../img/site_background.jpg') #000 no-repeat top left;
@@ -476,7 +482,12 @@ a{
 	margin: 0px 10px;
 }
 .mynote-box .note-info span.separator{
-	margin: 0px 4px;
+	margin: 0px 2px;
+}
+@-moz-document url-prefix(){
+	.mynote-box .note-info span.separator{
+		margin: 0px 1px;
+	}
 }
 .mynote-box .note-item .entry-content{
 	text-align: justify;

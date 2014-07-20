@@ -20,7 +20,7 @@
 		<div class="note-item col-xs-12">
 			<div class="entry-title">Note001<span class="separator">|</span><span>npn234568</span></div>
 			<div class="note-info">
-				<span class="note-date">July 10, 2014, 3:04pm PST</span>
+				<span class="note-date">July 10, 2014, 3:04 pm PST</span>
 				<span class="separator"></span>
 				<a href="#">Edit</a>
 				<span class="separator">|</span>
