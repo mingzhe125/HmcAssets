@@ -30,15 +30,15 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="index.html"><img id="logo" src="assets/img/logo.png" alt="HMC Assets" /></a>
+						<a class="navbar-brand" href="index.php"><img id="logo" src="assets/img/logo.png" alt="HMC Assets" /></a>
 					</div>
 					<div class="navbar-collapse collapse navigation col-xs-8">
 						<ul class="nav navbar-nav navbar-right">
-							<li class="active"><a href="#">Home</a></li>
+							<li><a href="#">Home</a></li>
 							<li><a href="#about">About Us</a></li>
 							<li><a href="#contact">Financing</a></li>
 							<li><a href="#contact">Contact</a></li>
-							<li><a href="#contact">Client Access</a></li>
+							<li class="active"><a href="#contact">Client Access</a></li>
 						</ul>
 					</div><!--/.navbar-collapse -->
 				</div>
