@@ -1,7 +1,7 @@
 <?php
 include_once 'header.php'; 
-$_SESSION['fav_num'] = 10;
-$_SESSION['note_num'] = 5;
+$_SESSION['fav_num'] = 11;
+$_SESSION['note_num'] = 6;
 ?>
 <section class="dashboard-main">
 	<div class="container">

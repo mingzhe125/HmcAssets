@@ -21,7 +21,6 @@ $_SESSION['list_num'] = 39;
 			<div class="col-xs-8 secondary">
 				<?php include_once 'content-investor-registy.php'; ?>
 				<?php include_once 'content-investor-properties.php'; ?>
-			
 			</div>
 		</section>
 	</div>

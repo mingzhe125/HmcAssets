@@ -61,6 +61,19 @@ $(document).ready(function() {
 			;
 		});
 	}
+	if ($('#page-investor-properties').length > 0) {
+		$('#page-investor-properties').bootpag({
+			total: 20,
+			page: 3,
+			maxVisible: 8,
+			href: "#pro-page-{{number}}",
+			leaps: false,
+			next: 'Next',
+			prev: 'Prev'
+		}).on('page', function(event, num) {
+			;
+		});
+	}
 
 	$('.listing-control a').click(function() {
 		if ($(this).parents('.listing-wrapper').hasClass(('expand'))) {

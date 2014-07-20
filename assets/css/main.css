@@ -99,7 +99,7 @@ a{
 }
 
 /*Pagination*/
-#page-selection-listing, #page-selection-note, #page-selection-property{
+#page-selection-listing, #page-selection-note, #page-selection-property, #page-investor-properties{
 	text-align: center;
 }
 .pagination{

@@ -10,4 +10,8 @@
 			</div>
 		<?php endfor; ?>
 	</div>
+	<div class="col-xs-12">
+		<div class="line"></div>
+		<div id="page-investor-properties"></div>
+	</div>
 </div>
