@@ -4,6 +4,9 @@
  * and open the template in the editor.
  */
 
+var map = null;
+var geocoder = null;
+var markers = [];
 $(document).ready(function() {
 	if ($('.selectpicker').length > 0) {
 		$('.selectpicker').selectpicker();
@@ -80,4 +83,57 @@ $(document).ready(function() {
 		};
 		map = new google.maps.Map(document.getElementById("map-box"), mapOptions);
 	}
+
+	if ($('#my_favorites_notes_page').length === 0) {
+		$('.property-note').hide();
+	}
+
+	if ($('#map-result-box').length > 0) {
+		var defLocation = {
+			lat: 51.923481,
+			lon: 4.469265
+		};
+		var defLatlng = new google.maps.LatLng(defLocation.lat, defLocation.lon);
+		var mapOptions = {
+			center: defLatlng,
+			zoom: 15,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		map = new google.maps.Map(document.getElementById("map-result-box"), mapOptions);
+
+		geocoder = new google.maps.Geocoder();
+		codeAddress();
+	}
 });
+
+function codeAddress() {
+	var address = '1217 W 109th Street, Los Angeles, CA, USA';
+	geocoder.geocode({'address': address}, function(results, status) {
+		if (status === google.maps.GeocoderStatus.OK) {
+			map.setCenter(results[0].geometry.location);
+			var marker = new google.maps.Marker({
+				map: map,
+				position: results[0].geometry.location
+			});
+
+			markers.push(marker);
+			var infowindow = new google.maps.InfoWindow({
+				content: ""
+			});
+
+			google.maps.event.addListener(marker, 'click', function(target, elem) {
+				infowindow.open(map, marker);
+				$.ajax({
+					type: "POST",
+					url: "ajax.php",
+					success: function(contentString) {
+						infowindow.setContent(contentString);
+					}
+				});
+			});
+		} else {
+			alert("Geocode was not successful for the following reason: " + status);
+		}
+	});
+
+}

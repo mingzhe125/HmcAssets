@@ -58,7 +58,7 @@
 									<a href="#" name="register" id="register"><img src="./assets/img/btn_register.png" alt="Register" /></a>
 								</div>
 							</div>
-							<form id="frm_login" name="frm_login" action="dashboard.html">
+							<form id="frm_login" name="frm_login" action="dashboard.php">
 								<div class="col-md-12 form-item form-input-item">
 									<input type="text" id="inputName" placeholder="Username">
 								</div>
