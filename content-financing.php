@@ -21,6 +21,12 @@
 	</div>
 	<div class="financing-item col-xs-12">
 		<h1>CIVIC HOME LOANS</h1>
+		<p>Civic home loans offers a variety of <span>conventional</span> loan products, competitive rates, and top customer service to fulfill any traditional loan needs.</p>
+		<ul class="navbar-nav">
+			<li><a href="#" id="offer-rings">PRODUCT OFFERINGS</a></li>
+			<li><a href="#" id="contact">CONTACT TITAN CAPITAL</a></li>
+			<li><a href="#" id="visit-site" class="last">VISIT<br/> WEBSITE</a></li>
+		</ul>
 	</div>
 	<div class="financing-info">
 		<img alt="" src="assets/img/financing-second.png" />

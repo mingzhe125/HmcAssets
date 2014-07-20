@@ -2,7 +2,7 @@
 include_once 'header.php'; 
 $_SESSION['fav_num'] = 6;
 $_SESSION['note_num'] = 6;
-$_SESSION['list_num'] = 39;
+$_SESSION['list_num'] = 37;
 ?>
 <section class="dashboard-main">
 	<div class="container">
