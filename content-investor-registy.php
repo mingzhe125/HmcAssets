@@ -90,7 +90,6 @@
 				<div class="form-item col-xs-12 one">
 					<label for="investment-properties">Assets available for purchase of investment properties<sup>*</sup></label>
 					<select name="investment-properties" id="investment-properties" class="selectpicker">
-						<option value=""></option>
 						<option value="1">Less than 100K</option>
 						<option value="2">100K</option>
 						<option value="3">200K</option>
@@ -104,7 +103,6 @@
 				<div class="form-item col-xs-3 indicate-from">
 					<label for="from">From<sup>*</sup></label>
 					<select name="from" id="from" class="selectpicker">
-						<option value=""></option>
 						<option value="1">any</option>
 						<option value="2">100K</option>
 						<option value="3">200K</option>
@@ -115,7 +113,6 @@
 				<div class="form-item col-xs-3 indicate-from">
 					<label for="to">To<sup>*</sup></label>
 					<select name="to" id="to" class="selectpicker">
-						<option value=""></option>
 						<option value="1">any</option>
 						<option value="2">100K</option>
 						<option value="3">200K</option>
