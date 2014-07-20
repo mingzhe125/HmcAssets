@@ -104,6 +104,7 @@ $(document).ready(function() {
 		geocoder = new google.maps.Geocoder();
 		codeAddress();
 	}
+
 });
 
 function codeAddress() {

@@ -558,6 +558,17 @@ a{
 	font-family: 'HelveticaNeueBold';
 	font-style: normal;
 }
+.listing-box .note-modal .entry-title{
+	font-size: 18px;
+}
+.listing-box .note-modal .entry-title span{
+	font-size: 16px;
+}
+.listing-box .note-modal textarea{
+	width: 100%;
+	height: 80px;
+	outline: none;
+}
 .listing-box .line.top{
 	width: 100%;
 	height: 1px;
@@ -949,6 +960,7 @@ a{
 	padding-right: 0px;
 	font-family: 'HelveticaNeue';
 	background-color: #fff;
+	margin-bottom: 20px;
 }
 .investor-register-box .entry-title{
 	font-size: 22px;
@@ -968,8 +980,17 @@ a{
 	padding: 0px;
 	font-weight: bold;
 }
+.investor-register-box .investor-form h5{
+	margin-bottom: 0px;
+	font-family: 'HelveticaNeueBold';
+}
+.investor-register-box .investor-form h6{
+	margin: 0px;
+	font-family: 'HelveticaNeueBold';
+}
 .investor-register-box .investor-form .form-item{
-	margin: 5px 0px;
+	margin: 2px 0px;
+	padding: 0px;
 }
 .investor-register-box .investor-form label{
 	display: inline-block;
@@ -978,16 +999,64 @@ a{
 .investor-register-box .investor-form input{
 	width: 67%;
 }
+.investor-register-box .investor-form .form-item.one label{
+	width: 49.5%;
+}
+.investor-register-box .investor-form .form-item.one textarea{
+	width: 100%;
+	height: 50px;
+}
+.investor-register-box .investor-form .form-item.three label{
+	padding-left: 10px;
+}
+.investor-register-box .investor-form .form-item .btn-group.bootstrap-select{
+	width: 48%;
+	margin-bottom: 0px;
+}
 .investor-register-box .investor-form .check-group input{
 	width: 15%;
+	margin: 0px;
 }
 .investor-register-box .investor-form .check-group label{
 	width: 82%;
 	position: relative;
-	top: -4px;
+	top: -3px;
+}
+.investor-register-box .investor-form .two button{
+	float: right;
+	margin-bottom: 20px;
+}
+.investor-register-box .investor-form .indicate{
+	/*width: 43%;*/
+}
+.investor-register-box .investor-form .form-item.indicate-from .btn-group.bootstrap-select{
+	width: 93%;
 }
 /*End Investor Registry Box*/
-
+.investor-properties-box{
+	padding-left: 0px;
+	padding-right: 0px;
+	font-family: 'HelveticaNeue';
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+.investor-properties-box .entry-title{
+	font-size: 22px;
+	font-family: 'Times Roman';
+	font-style: italic;
+	color: #003368;
+	margin-bottom: 20px;
+}
+.investor-properties-box .entry-title span{
+	color: #ff0000;
+	font-family: 'HelveticaNeueBold';
+	font-style: normal;
+	display: inline-block;
+	margin-left: 10px;
+}
+.investor-properties .investor-property{
+	margin-bottom: 10px;
+}
 /*Map Result Box*/
 .map-result-box{
 	padding: 0px;

@@ -1,7 +1,7 @@
 <?php
 include_once 'header.php'; 
-$_SESSION['fav_num'] = 6;
-$_SESSION['note_num'] = 6;
+$_SESSION['fav_num'] = 7;
+$_SESSION['note_num'] = 7;
 $_SESSION['list_num'] = 39;
 ?>
 <section class="dashboard-main">
@@ -20,6 +20,8 @@ $_SESSION['list_num'] = 39;
 			<!--Listing Box Section-->
 			<div class="col-md-8 secondary">
 				<?php include_once 'content-investor-registy.php'; ?>
+				<?php include_once 'content-investor-properties.php'; ?>
+			
 			</div>
 		</section>
 	</div>

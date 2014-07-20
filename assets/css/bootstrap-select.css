@@ -310,7 +310,9 @@
 }
 
 .bootstrap-select-searchbox input {
-    margin-bottom: 0;
+	padding: 2px 6px;
+	height: 23px;
+	font-size: 10px;
 }
 
 .bootstrap-select .bs-actionsbox .btn-group button {

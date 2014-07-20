@@ -17,7 +17,7 @@ $_SESSION['list_num'] = 39;
 				<div class="map-box default-box col-md-12">
 					<h3 class="entry-title">Preferred Investor Program&nbsp;&nbsp;<span>map</span></h3>
 					<div id="map-box"></div>
-					<a href="#" class="btn_display_listing">
+					<a href="search_result_map.php" class="btn_display_listing">
 						<img alt="" src="assets/img/btn_display_listing.png" />
 					</a>
 				</div>

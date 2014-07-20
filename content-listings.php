@@ -50,7 +50,7 @@ $rows = isset($_SESSION['list_num']) ? $_SESSION['list_num'] : 39;
 						<h1 class="special">price just<br/>reduced by<br/>$10,000!</h1>
 					</div>
 					<div>
-						<a href="#">Create a Note</a>
+						<a data-toggle="modal" data-target=".bs-example-modal-sm" href="#">Create a Note</a>
 						<a href="#">Add to Favorites</a>
 						<a href="#">Contact HMC Assets</a>
 						<a href="#">Request financing quote from titan</a>
@@ -111,5 +111,23 @@ $rows = isset($_SESSION['list_num']) ? $_SESSION['list_num'] : 39;
 	<?php endfor; ?>
 	<div class="col-md-12">
 		<div class="line alpha"></div>
+	</div>
+</div>
+
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-sm">
+		<div class="note-modal modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title entry-title" id="mySmallModalLabel">Preferred Investor Program&nbsp;&nbsp;<span>Note</span></h4>
+			</div>
+			<div class="modal-body">
+				<textarea class="note-content"></textarea>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default btn-sm small" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary btn-sm small">Save</button>
+			</div>
+		</div>
 	</div>
 </div>
