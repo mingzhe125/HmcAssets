@@ -12,14 +12,6 @@ $(document).ready(function() {
 		$('.selectpicker').selectpicker();
 	}
 
-	if ($('#frm_login #login').length > 0) {
-		$('#frm_login #login').on('mouseover mousemove', function() {
-			$(this).attr('src', './assets/img/btn_login_hover.png');
-		}).mouseout(function() {
-			$(this).attr('src', './assets/img/btn_login.png');
-		});
-	}
-
 	if ($('#page-selection-property').length > 0) {
 		$('#page-selection-property').bootpag({
 			total: 9,
