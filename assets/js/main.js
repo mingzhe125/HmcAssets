@@ -12,6 +12,20 @@ $(document).ready(function() {
 		$('.selectpicker').selectpicker();
 	}
 
+    if ($('#page-selection-property').length > 0) {
+		$('#page-selection-property').bootpag({
+			total: 9,
+			page: 2,
+			maxVisible: 5,
+			href: "#pro-page-{{number}}",
+			leaps: false,
+			next: 'Next',
+			prev: 'Prev'
+		}).on('page', function(event, num) {
+			;
+		});
+	}
+
 	if ($('#page-selection-note').length > 0) {
 		$('#page-selection-note').bootpag({
 			total: 9,
@@ -26,19 +40,6 @@ $(document).ready(function() {
 		});
 	}
 
-	if ($('#page-selection-listing').length > 0) {
-		$('#page-selection-listing').bootpag({
-			total: 20,
-			page: 3,
-			maxVisible: 8,
-			href: "#pro-page-{{number}}",
-			leaps: false,
-			next: 'Next',
-			prev: 'Prev'
-		}).on('page', function(event, num) {
-			;
-		});
-	}
 	if ($('#page-investor-properties').length > 0) {
 		$('#page-investor-properties').bootpag({
 			total: 20,
