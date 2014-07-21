@@ -31,7 +31,7 @@
 		<div class="form-item">
 			<label for="minsq">min(sqft)</label>
 			<select name="minsq" id="minsq" class="selectpicker">
-				<option value="">None</option>
+				<option value="">All</option>
 				<option value="1000">1000+</option>
 				<option value="1500">1500+</option>
 				<option value="2000">2000+</option>
@@ -42,7 +42,7 @@
 		<div class="form-item">
 			<label for="state">state</label>
 			<select name="state" id="state" class="selectpicker">
-				<option value="">None</option>
+				<option value="">All</option>
 				<?php
 				$states = get_interests_states();
 				if (!empty($states)) {
@@ -58,7 +58,7 @@
 		<div class="form-item">
 			<label for="county">county</label>
 			<select name="county" id="county" class="selectpicker" multiple title='None' data-live-search="true">
-				<option value="">None</option>
+				<option value="">All</option>
 			</select>
 		</div>
 		<div class="form-item">
