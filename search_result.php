@@ -1,5 +1,5 @@
 <?php
-include_once 'header.php'; 
+include_once 'header.php';
 $_SESSION['fav_num'] = 6;
 $_SESSION['note_num'] = 6;
 $_SESSION['list_num'] = 37;
@@ -32,9 +32,8 @@ $_SESSION['list_num'] = 37;
 			<!--Listing Box Section-->
 			<div class="col-xs-8 secondary">
 				<div class="listing-box col-xs-12">
-					<h2 class="entry-title col-xs-12"><span>SEARCH RESULTS</span></h2>
 					<div class="col-xs-12">
-						<div class="line top col-xs-12"></div>
+						<h2 class="entry-title">Preferred Investor Program <span>Search Results</span></h2>
 					</div>
 					<div class="message col-xs-12">
 						<p>We have found 32 properties meeting your search criterias:</p>

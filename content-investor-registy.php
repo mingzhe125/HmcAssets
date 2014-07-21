@@ -1,7 +1,6 @@
 <div class="investor-register-box col-xs-12">
-	<h2 class="entry-title col-xs-12">Preferred Investor Program<span>My Profile</span></h2>
 	<div class="col-xs-12">
-		<div class="line top col-xs-12"></div>
+		<h2 class="entry-title">Preferred Investor Program<span>My Profile</span></h2>	
 	</div>
 	<div class="investor-form col-xs-12">
 		<form id="frm_invstor" name="frm_search" action="search_result.php">

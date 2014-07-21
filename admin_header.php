@@ -16,12 +16,15 @@ require_once './include/functions.php';
 		<link href="assets/css/bootstrap.css" rel="stylesheet">
 		<link href="assets/css/bootstrap-theme.css" rel="stylesheet">
 		<link href="assets/css/bootstrap-select.css" rel="stylesheet">
-		<link href="assets/css/amin_main.css?123" rel="stylesheet">
+		<link href="assets/css/DT_bootstrap.css" rel="stylesheet">
+		<link href="assets/css/admin_main.css" rel="stylesheet">
 
 		<script type="text/javascript" src="assets/js/jquery-2.1.1.min.js"></script>
 		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="assets/js/bootstrap-select.min.js"></script>
 		<script type="text/javascript" src="assets/js/jquery.bootpag.min.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.dataTables.js"></script>
+		<script type="text/javascript" src="assets/js/DT_bootstrap.js"></script>
 		<script type="text/javascript" src="assets/js/admin_main.js"></script>
 	</head>
 	<body>
