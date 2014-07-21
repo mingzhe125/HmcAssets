@@ -5,6 +5,7 @@ $rows = isset($_SESSION['list_num']) ? $_SESSION['list_num'] : 39;
 	<div class="col-xs-12">
 		<div class="line alpha col-xs-12"></div>
 	</div>
+    <div id="listings_wrapper">
 	<?php for ($i = 1; $i < $rows; $i++): ?>
 		<div class="listing-wrapper<?php echo ($i == 3 ? ' special' : ''); ?>">
 			<div class="listing-item col-xs-12">
@@ -109,6 +110,7 @@ $rows = isset($_SESSION['list_num']) ? $_SESSION['list_num'] : 39;
 			</div>
 		</div>
 	<?php endfor; ?>
+    </div>
 	<div class="col-xs-12">
 		<div class="line alpha"></div>
 	</div>

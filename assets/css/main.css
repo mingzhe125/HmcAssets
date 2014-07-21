@@ -690,7 +690,7 @@ a{
 	float: left;
 	width: 100%;
 }
-.listing-wrapper:nth-last-child(2) .line.beta{
+.listing-wrapper:last-child .line.beta{
 	display: none;
 }
 .listing-wrapper.expand{
