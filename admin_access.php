@@ -42,7 +42,7 @@ include_once 'admin_header.php';
 									<td class="action">
 										<a data-toggle="modal" data-target=".edit-user-modal" href="#">Edit</a>
 										<a href="">|</a>
-										<a href="#">Delete</a>
+										<a data-toggle="modal" data-target=".bs-example-modal-sm" href="#">Delete</a>
 									</td>
 								</tr>
 								<?php
@@ -209,6 +209,24 @@ include_once 'admin_header.php';
 			<div class="modal-footer">
 				<button type="button" class="btn btn-default btn-sm small" data-dismiss="modal">Cancel</button>
 				<button type="button" class="btn btn-primary btn-sm small">Update User</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-sm">
+		<div class="note-modal modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title entry-title" id="mySmallModalLabel">Preferred Investor Program&nbsp;&nbsp;<span>User</span></h4>
+			</div>
+			<div class="modal-body">
+				<h4 class='message'>Are you sure to delete?</h4>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default btn-sm small" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary btn-sm small">Save</button>
 			</div>
 		</div>
 	</div>
