@@ -30,11 +30,6 @@ require_once './include/functions.php';
 			<header class="navbar navbar-collapse">
 				<div class="container">
 					<div class="navbar-header col-xs-4">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
 						<a class="navbar-brand" href="index.php"><img id="logo" src="assets/img/logo.png" alt="HMC Assets" /></a>
 					</div>
 					<div class="navbar-collapse collapse navigation col-xs-8">

@@ -55,7 +55,7 @@
 									<img class="login_text" src="./assets/img/login_text.png" alt="" />
 								</div>
 								<div class="col-xs-5">
-									<a href="profile.php" name="register" id="register"><img src="./assets/img/btn_register.png" alt="Register" /></a>
+									<a href="http://www.hmcassets.com/PreferredInvestorProgram/beta/register.html" name="register" id="register"><img src="./assets/img/btn_register.png" alt="Register" /></a>
 								</div>
 							</div>
 							<form id="frm_login" name="frm_login" action="dashboard.php">
@@ -69,7 +69,7 @@
 									<input type="image" src="./assets/img/btn_login.png" name="login" id="login" alt="Login"/>
 								</div>
 								<div class="col-xs-12 forgot-password text-right form-item">
-									<p>Forgot your username and <br/> password? <a href="register.php">Click Here</a></p>
+									<p>Forgot your username and <br/> password? <a href="forgot.php">Click Here</a></p>
 								</div>
 							</form>
 						</div>
