@@ -8,6 +8,14 @@ var map = null;
 var geocoder = null;
 var markers = [];
 $(document).ready(function() {
+    if ($('#frm_login #login').length > 0) {
+		$('#frm_login #login').on('mouseover mousemove', function() {
+			$(this).attr('src', './assets/img/btn_login_hover.png');
+		}).mouseout(function() {
+			$(this).attr('src', './assets/img/btn_login.png');
+		});
+	}
+    
 	if ($('.selectpicker').length > 0) {
 		$('.selectpicker').selectpicker();
 	}
@@ -40,6 +48,20 @@ $(document).ready(function() {
 		});
 	}
 
+	if ($('#page-selection-listing').length > 0) {
+		$('#page-selection-listing').bootpag({
+			total: 20,
+			page: 3,
+			maxVisible: 8,
+			href: "#pro-page-{{number}}",
+			leaps: false,
+			next: 'Next',
+			prev: 'Prev'
+		}).on('page', function(event, num) {
+			;
+		});
+	}
+    
 	if ($('#page-investor-properties').length > 0) {
 		$('#page-investor-properties').bootpag({
 			total: 20,
