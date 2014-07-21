@@ -158,15 +158,15 @@ a{
 .navbar .navigation ul li a{
 	color: #6f6f6f;
 	padding-bottom: 5px;
-	margin-left: 10px;
-	padding-right:18px;
-	padding-left: 18px;
+	margin-left: 35px;
+	padding-right:0px;
+	padding-left: 0px;
 }
 .navbar .navigation ul li.active a{
-	border-bottom: 5px solid #d93714;
+	border-bottom: 9px solid #d93714;
 }
 .navbar .navigation ul li a:hover{
-	border-bottom: 5px solid #d93714;
+	border-bottom: 9px solid #d93714;
 }
 .navbar-nav{
 	padding: 0px;
@@ -735,6 +735,11 @@ a{
 	text-decoration: none;
 	position: relative;
 }
+.listing-detail .listing-detail-inner a.disabled{
+	cursor: text;
+	background-color: #808080;
+	color: #eee;
+}
 .listing-detail .listing-detail-inner a:before{
 	content: ' ';
 	display: block;
@@ -834,6 +839,18 @@ a{
 	width: 265px;
 	background: url('../img/input_back.png') transparent no-repeat;
 }
+#frm_login .forgot-password{
+	margin-top: 10px;
+	color: #eee;
+}
+#frm_login .forgot-password a{
+	color: #eee;
+	text-decoration: none;
+}
+#frm_login .text-right{
+	text-align: right;
+}
+
 /*End Login Page*/
 
 /*Footer Section*/

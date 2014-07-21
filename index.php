@@ -55,7 +55,7 @@
 									<img class="login_text" src="./assets/img/login_text.png" alt="" />
 								</div>
 								<div class="col-xs-5">
-									<a href="#" name="register" id="register"><img src="./assets/img/btn_register.png" alt="Register" /></a>
+									<a href="register.php" name="register" id="register"><img src="./assets/img/btn_register.png" alt="Register" /></a>
 								</div>
 							</div>
 							<form id="frm_login" name="frm_login" action="dashboard.php">
@@ -65,8 +65,11 @@
 								<div class="col-xs-12 form-item form-input-item">
 									<input type="password" id="inputPassword" placeholder="Password">
 								</div>
-								<div class="col-xs-12 text-right form-item text-right">
+								<div class="col-xs-12 text-right form-item">
 									<input type="image" src="./assets/img/btn_login.png" name="login" id="login" alt="Login"/>
+								</div>
+								<div class="col-xs-12 forgot-password text-right form-item">
+									<p>Forgot your username and <br/> password? <a href="register.php">Click Here</a></p>
 								</div>
 							</form>
 						</div>
