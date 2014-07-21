@@ -4,6 +4,7 @@ $_SESSION['fav_num'] = 10;
 $_SESSION['note_num'] = 5;
 ?>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="assets/js/infobox.js"></script>
 <section class="dashboard-main">
 	<div class="container">
 		<!--Top Mark-->

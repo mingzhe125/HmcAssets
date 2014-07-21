@@ -535,7 +535,7 @@ a{
 	padding: 8px 0px;
 	line-height: 1.4;
 	text-decoration: none;
-	margin-right: 9px;
+	margin-right: 6px;
 	-webkit-box-shadow: -3px 6px 15px 0px rgba(0, 0, 0, 0.4);
 	-moz-box-shadow:    -3px 6px 15px 0px rgba(0, 0, 0, 0.4);
 	box-shadow:         -3px 6px 15px 0px rgba(0, 0, 0, 0.4);
@@ -577,6 +577,12 @@ a{
 	font-family: 'Times Roman';
 	font-style: italic;
 	color: #003368;
+}
+#my_favorites_notes_page .listing-box .entry-title{
+	font-size: 16px;
+}
+#my_favorites_notes_page .listing-box .entry-title span{
+	font-size: 14px;
 }
 .listing-box .entry-title span{
 	color: #ff0000;

@@ -1,5 +1,5 @@
 <?php
-include_once 'header.php'; 
+include_once 'header.php';
 $_SESSION['fav_num'] = 11;
 $_SESSION['note_num'] = 6;
 ?>
@@ -17,18 +17,18 @@ $_SESSION['note_num'] = 6;
 						<h1>TITAN CAPITAL</h1>
 						<p>We INTERNALLY APPRAISE AND FUND OUR OWN LOANS, AND offer <span>HARD-MONEY LOANS</span> FOR QUALIFIED PROPERTIES FOR LOAN AMOUNTS UP TO $3MM.</p>
 						<ul class="navbar-nav">
-							<li><a href="#" id="offer-rings">PRODUCT OFFERINGS</a></li>
-							<li><a href="#" id="contact">CONTACT TITAN CAPITAL</a></li>
-							<li><a href="#" id="visit-site">VISIT<br/> WEBSITE</a></li>
+							<li><a href="assets/Titan_Summary_2014.pdf" target="_blank" id="offer-rings">PRODUCT OFFERINGS</a></li>
+							<li><a href="mailto:hmc@titan-cap.com" id="contact">CONTACT TITAN CAPITAL</a></li>
+							<li><a href="http://www.titan-cap.com" target="_blank" id="visit-site">VISIT<br/> WEBSITE</a></li>
 						</ul>
 					</div>
 					<div class="financing-item col-xs-6">
 						<h1>CIVIC Home loans</h1>
 						<p>CIVIC home loans  offers a variety of <span>CONVENTIONAL</span> loan pRODUCTS, competitive rates, and top customer service to fulfill any traditionAl loan needs.</p>
 						<ul class="navbar-nav">
-							<li><a href="#" id="offer-rings">PRODUCT OFFERINGS</a></li>
-							<li><a href="#" id="contact">CONTACT TITAN CAPITAL</a></li>
-							<li><a href="#" id="visit-site">VISIT<br/> WEBSITE</a></li>
+							<li><a href="assets/CIVIC_Summary_2014.pdf" target="_blank" id="offer-rings">PRODUCT OFFERINGS</a></li>
+							<li><a href="mailto:hmc@civichomeloans.com" id="contact">CONTACT TITAN CAPITAL</a></li>
+							<li><a href="http://www.civichomeloans.com" target="_blank" id="visit-site">VISIT<br/> WEBSITE</a></li>
 						</ul>
 					</div>
 					<div class="financing-item"></div>

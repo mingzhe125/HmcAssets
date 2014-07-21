@@ -55,7 +55,7 @@
 									<img class="login_text" src="./assets/img/login_text.png" alt="" />
 								</div>
 								<div class="col-xs-5">
-									<a href="register.php" name="register" id="register"><img src="./assets/img/btn_register.png" alt="Register" /></a>
+									<a href="profile.php" name="register" id="register"><img src="./assets/img/btn_register.png" alt="Register" /></a>
 								</div>
 							</div>
 							<form id="frm_login" name="frm_login" action="dashboard.php">

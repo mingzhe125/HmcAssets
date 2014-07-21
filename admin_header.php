@@ -55,7 +55,7 @@ require_once './include/functions.php';
 						$current_url = $_SERVER["REQUEST_URI"];
 						?>
 						<ul class="nav navbar-nav navbar-right">
-							<li <?php echo (strpos($current_url, 'dashboard') === false ? '' : 'class="active"'); ?>><a class="first" href="dashboard.php">DASHBOARD</a></li>
+							<li <?php echo (strpos($current_url, 'admin_dashboard') === false ? '' : 'class="active"'); ?>><a class="first" href="dashboard.php">ADMIN DASHBOARD</a></li>
 							<li <?php echo (strpos($current_url, 'all_properties') === false ? '' : 'class="active"'); ?>><a href="all_properties.php">View All Properties</a></li>
 							<li <?php echo (strpos($current_url, 'financing') === false ? '' : 'class="active"'); ?>><a href="financing.php">Financing</a></li>
 							<li <?php echo (strpos($current_url, 'offers') === false ? '' : 'class="active"'); ?>><a href="offers.php">Special Offers</a></li>

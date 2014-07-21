@@ -25,7 +25,7 @@ $_SESSION['list_num'] = 13;
 			<!--Listing Box Section-->
 			<div class="col-xs-8 secondary">
 				<div class="listing-box col-xs-12">
-					<h2 class="entry-title col-xs-12">Most Recent <span>Listing</span></h2>
+					<h2 class="entry-title col-xs-12">Preferred Investor Program  <span>MY FAVORITES & NOTES</span></h2>
 					<div class="col-xs-12">
 						<div class="line top col-xs-12"></div>
 					</div>
