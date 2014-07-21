@@ -127,7 +127,7 @@ function get_user_info_fields() {
 		),
 		array(
 			'type' => 'email',
-			'name' => 'Confirm Email',
+			'name' => 'Email Address',
 			'value' => 'gm@hmcassets.com'
 		)
 	);

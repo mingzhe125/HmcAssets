@@ -249,6 +249,8 @@ a{
 	font-size: 10px;
 	padding-right: 0px;
 	padding-left: 0px;
+	min-height: 510px;
+	background-color: #fff;
 }
 /*End Dashboard Main*/
 /*Tab Section*/

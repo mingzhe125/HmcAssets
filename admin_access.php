@@ -219,7 +219,6 @@ include_once 'admin_header.php';
 		<div class="note-modal modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-				<h4 class="modal-title entry-title" id="mySmallModalLabel">Preferred Investor Program&nbsp;&nbsp;<span>User</span></h4>
 			</div>
 			<div class="modal-body">
 				<h4 class='message col-xs-12'>Are you sure to delete?</h4>
