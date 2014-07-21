@@ -222,7 +222,7 @@ include_once 'admin_header.php';
 				<h4 class="modal-title entry-title" id="mySmallModalLabel">Preferred Investor Program&nbsp;&nbsp;<span>User</span></h4>
 			</div>
 			<div class="modal-body">
-				<h4 class='message'>Are you sure to delete?</h4>
+				<h4 class='message col-xs-12'>Are you sure to delete?</h4>
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-default btn-sm small" data-dismiss="modal">Close</button>
