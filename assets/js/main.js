@@ -12,20 +12,6 @@ $(document).ready(function() {
 		$('.selectpicker').selectpicker();
 	}
 
-	if ($('#page-selection-property').length > 0) {
-		$('#page-selection-property').bootpag({
-			total: 9,
-			page: 2,
-			maxVisible: 5,
-			href: "#pro-page-{{number}}",
-			leaps: false,
-			next: 'Next',
-			prev: 'Prev'
-		}).on('page', function(event, num) {
-			;
-		});
-	}
-
 	if ($('#page-selection-note').length > 0) {
 		$('#page-selection-note').bootpag({
 			total: 9,
