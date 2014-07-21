@@ -57,8 +57,8 @@
 		</div>
 		<div class="form-item">
 			<label for="county">county</label>
-			<select name="county" id="county" class="selectpicker" multiple title='None' data-live-search="true">
-				<option value="">All</option>
+			<select name="county" id="county" class="selectpicker" multiple title='All' data-live-search="true">
+				<option value="">None</option>
 			</select>
 		</div>
 		<div class="form-item">
