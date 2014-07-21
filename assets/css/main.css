@@ -690,6 +690,9 @@ a{
 	float: left;
 	width: 100%;
 }
+.listing-wrapper:nth-last-child(2) .line.beta{
+	display: none;
+}
 .listing-wrapper.expand{
 	background-color: #5083a7;
 	position: relative;
