@@ -1,5 +1,5 @@
 <?php
-include_once 'header.php'; 
+include_once 'header.php';
 $_SESSION['fav_num'] = 6;
 $_SESSION['note_num'] = 6;
 $_SESSION['list_num'] = 37;
@@ -32,16 +32,15 @@ $_SESSION['list_num'] = 37;
 			<!--Listing Box Section-->
 			<div class="col-xs-8 secondary">
 				<div class="listing-box col-xs-12">
-					<h2 class="entry-title col-xs-12">Most Recent <span>Listing</span></h2>
 					<div class="col-xs-12">
-						<div class="line top col-xs-12"></div>
+						<h2 class="entry-title">Preferred Investor Program <span>Most Recent Listing</span></h2>
 					</div>
 					<div class="search-order-box col-xs-12">
 						<div class="search-order-item by_sales_type">
 							<select name="by_sales_type" id="by_sales_type" class="selectpicker">
-								<option value="">List By State</option>
-								<option value="fund">List By County</option>
-								<option value="send">List By Sales Type</option>
+								<option value="">Sort By State</option>
+								<option value="fund">Sort By County</option>
+								<option value="send">Sort By Sales Type</option>
 							</select>
 						</div>
 					</div>

@@ -1,5 +1,5 @@
 <?php
-include_once 'header.php'; 
+include_once 'header.php';
 $_SESSION['fav_num'] = 7;
 $_SESSION['note_num'] = 6;
 $_SESSION['list_num'] = 39;

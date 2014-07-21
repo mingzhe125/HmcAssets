@@ -273,6 +273,26 @@ a{
 	width: 66%;
 	float: right;
 }
+.inner-content .secondary .entry-title, .inner-content .map-result-box .entry-title{
+	font-size: 14px;
+	color: #003368;
+	font-family: 'Times Roman', arial;
+	font-style: italic;
+	margin: 0px;
+	border-bottom: 2px solid #a3a3a3;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.inner-content .secondary .entry-title span, .inner-content .map-result-box .entry-title span{
+	font-size: 14px;
+	color: #ff0000;
+	font-family: 'HelveticaNeueBold';
+	text-transform: uppercase;
+	font-style: normal;
+	display: inline-block;
+	margin-left: 7px;
+}
+
 .inner-content .third{
 	margin-left: 0px;
 	padding: 0px;
@@ -566,28 +586,12 @@ a{
 	padding-right: 0px;
 	font-family: 'HelveticaNeue';
 	background-color: #fff;
+	padding-top: 20px;
 }
 .listing-box .message{
 	text-align: center;
 	font-size: 14px;
 	font-family: 'HelveticaNeueLight';
-}
-.listing-box .entry-title{
-	font-size: 22px;
-	font-family: 'Times Roman';
-	font-style: italic;
-	color: #003368;
-}
-#my_favorites_notes_page .listing-box .entry-title{
-	font-size: 16px;
-}
-#my_favorites_notes_page .listing-box .entry-title span{
-	font-size: 14px;
-}
-.listing-box .entry-title span{
-	color: #ff0000;
-	font-family: 'HelveticaNeueBold';
-	font-style: normal;
 }
 .listing-box .note-modal .entry-title{
 	font-size: 18px;
@@ -890,22 +894,6 @@ a{
 	float: left;
 	background-color: #fff;
 }
-.special-offers-box .entry-title{
-	font-size: 14px;
-	color: #003368;
-	font-family: 'Times Roman', arial;
-	font-style: italic;
-	margin: 0px;
-	border-bottom: 2px solid #a3a3a3;
-	padding-bottom: 10px;
-}
-.special-offers-box .entry-title span{
-	font-size: 12px;
-	color: #ff0000;
-	font-family: 'HelveticaNeueBold';
-	text-transform: uppercase;
-	font-style: normal;
-}
 .special-offers-box .special-info{
 	padding: 10px 0px;
 	color: #4a7da1;
@@ -922,13 +910,11 @@ a{
 .special-offers-detail{
 	padding: 20px 0px;
 }
-.special-offers-detail .entry-title{
-	border: none;
-}
 .special-offers-detail .special-offers-detail-item{
 	width: 49%;
 	float: left;
 	color: #4a7da1;
+	margin-top: 10px;
 }
 .special-offers-detail .special-offers-detail-item.first{
 	margin-right: 2%;
@@ -1010,20 +996,7 @@ a{
 	font-family: 'HelveticaNeue';
 	background-color: #fff;
 	margin-bottom: 20px;
-}
-.investor-register-box .entry-title{
-	font-size: 22px;
-	font-family: 'Times Roman';
-	font-style: italic;
-	color: #003368;
-	margin-bottom: 20px;
-}
-.investor-register-box .entry-title span{
-	color: #ff0000;
-	font-family: 'HelveticaNeueBold';
-	font-style: normal;
-	display: inline-block;
-	margin-left: 10px;
+	padding-top: 20px;
 }
 .investor-register-box .investor-form{
 	padding: 0px;
@@ -1118,20 +1091,8 @@ a{
 	margin-bottom: 20px;
 }
 .map-result-box .entry-title{
-	font-size: 13px;
-	color: #003368;
-	font-family: 'Times Roman', arial;
-	font-style: italic;
-	padding-bottom: 7px;
+	padding: 20px 0px;
 }
-.map-result-box .entry-title span{
-	font-size: 12px;
-	color: #ff0000;
-	font-family: 'HelveticaNeueBold';
-	text-transform: uppercase;
-	font-style: normal;
-}
-
 #map-result-box{
 	width: 100%;
 	height: 550px;
