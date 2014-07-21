@@ -594,10 +594,12 @@ a{
 	font-family: 'HelveticaNeueLight';
 }
 .listing-box .note-modal .entry-title{
-	font-size: 18px;
+	font-size: 14px;
+	margin-bottom: 0px;
+	padding-bottom: 5px;
 }
 .listing-box .note-modal .entry-title span{
-	font-size: 16px;
+	font-size: 14px;
 }
 .listing-box .note-modal textarea{
 	width: 100%;

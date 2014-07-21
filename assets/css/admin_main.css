@@ -87,24 +87,29 @@ a{
 .pagination{
 	margin: 15px auto;
 }
-.pagination li{
+.pagination ul li{
+	list-style: none;
+	display: inline;
 }
-.pagination > li > a, .pagination > li > span{
+.pagination > ul > li > a, .pagination > li > span{
 	border: none;
 	background: none;
+	font-family: "HelveticaNeueLight";
+	padding: 4px;
+	margin-right: 4px;
+	text-decoration: none;
+}
+.pagination > ul > li.active > a{
 	font-family: "HelveticaNeueBold";
-	font-size: 12px;
 }
 .pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus{
 	background-color: #4a7da1;
 	color: #fff;
+	cursor:text;
 }
 .pagination > li:hover >a{
 	background: none;
 	border: none;
-}
-.pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus{
-	cursor:text;
 }
 .pagination .prev.disabled a, .pagination .next.disabled a{
 	background: none!important;
@@ -261,6 +266,46 @@ a{
 	color: #ff0000;
 }
 /*End Tab Section*/
+/*Table Section*/
+.table .action a{
+	text-transform: uppercase;
+	color: #c61e1e;
+	margin: 0px 2px;
+}
+.tab-content .button-wrapper{
+	width: 100%;
+	float: left;
+}
+.tab-content .button{
+	color: #fff;
+	background-color: #c92121;
+	display: block;
+	font-family: 'HelveticaNeueBold';
+	padding: 10px 25px;
+	float: right;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+/*End Table Section*/
+.entry-title{
+	font-size: 14px;
+	color: #003368;
+	font-family: 'Times Roman', arial;
+	font-style: italic;
+	margin: 0px;
+	border-bottom: 2px solid #a3a3a3;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.entry-title span{
+	font-size: 14px;
+	color: #ff0000;
+	font-family: 'HelveticaNeueBold';
+	text-transform: uppercase;
+	font-style: normal;
+	display: inline-block;
+	margin-left: 7px;
+}
 
 /*Login Page*/
 #login_page .main .container{
@@ -333,3 +378,48 @@ a{
 	background: none;
 }
 /*End Footer*/
+
+/*Modal Section*/
+.modal-dialog .modal-header{
+	border-bottom: none;
+}
+.modal-body{
+	float: left;
+	width: 100%;
+	padding-top: 0px;
+}
+.modal-content{
+	float: left;
+}
+.modal-header{
+	float: left;
+	width: 100%;
+}
+.modal-footer{
+	float: left;
+	width: 100%;
+}
+.modal-content .form-item{
+	padding: 0px;
+	margin-bottom: 5px;
+}
+.modal-content .form-item input, .modal-content .form-item select{
+	line-height: 1;
+	padding: 1px 3px;
+}
+.modal-content .form-item .checkbox-group{
+	padding: 0px;
+	margin-left: -23px;
+	width: 78%;
+}
+.modal-content .form-item .checkbox-group input{
+	margin-right: 3px;
+}
+.modal-content .form-item .checkbox-group label{
+	display: inline-block;
+	width: auto;
+	min-width: 50px;
+	margin-right: 12px;
+	position: relative;
+	top: -3px;
+}

@@ -1,5 +1,4 @@
 <?php
-
 include_once 'admin_header.php';
 ?>
 <section class="dashboard-main" id="admin_access_page">
@@ -16,424 +15,203 @@ include_once 'admin_header.php';
 				<table cellpadding="0" cellspacing="0" border="0" class="table table-striped table-bordered" id="admin_access">
 					<thead>
 						<tr>
-							<th>Rendering engine</th>
-							<th>Browser</th>
-							<th>Platform(s)</th>
-							<th>Engine version</th>
-							<th>CSS grade</th>
+							<th>First Name</th>
+							<th>Last Name</th>
+							<th>Company</th>
+							<th>User Type</th>
+							<th>User eMail</th>
+							<th>User Name</th>
+							<th>Action</th>
 						</tr>
 					</thead>
 					<tbody>
-						<tr class="odd gradeX">
-							<td>Trident</td>
-							<td>Internet
-								Explorer 4.0</td>
-							<td>Win 95+</td>
-							<td class="center"> 4</td>
-							<td class="center">X</td>
-						</tr>
-						<tr class="even gradeC">
-							<td>Trident</td>
-							<td>Internet
-								Explorer 5.0</td>
-							<td>Win 95+</td>
-							<td class="center">5</td>
-							<td class="center">C</td>
-						</tr>
-						<tr class="odd gradeA">
-							<td>Trident</td>
-							<td>Internet
-								Explorer 5.5</td>
-							<td>Win 95+</td>
-							<td class="center">5.5</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="even gradeA">
-							<td>Trident</td>
-							<td>Internet
-								Explorer 6</td>
-							<td>Win 98+</td>
-							<td class="center">6</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="odd gradeA">
-							<td>Trident</td>
-							<td>Internet Explorer 7</td>
-							<td>Win XP SP2+</td>
-							<td class="center">7</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="even gradeA">
-							<td>Trident</td>
-							<td>AOL browser (AOL desktop)</td>
-							<td>Win XP</td>
-							<td class="center">6</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Gecko</td>
-							<td>Firefox 1.0</td>
-							<td>Win 98+ / OSX.2+</td>
-							<td class="center">1.7</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Gecko</td>
-							<td>Firefox 1.5</td>
-							<td>Win 98+ / OSX.2+</td>
-							<td class="center">1.8</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Gecko</td>
-							<td>Firefox 2.0</td>
-							<td>Win 98+ / OSX.2+</td>
-							<td class="center">1.8</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Gecko</td>
-							<td>Firefox 3.0</td>
-							<td>Win 2k+ / OSX.3+</td>
-							<td class="center">1.9</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Gecko</td>
-							<td>Camino 1.0</td>
-							<td>OSX.2+</td>
-							<td class="center">1.8</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Gecko</td>
-							<td>Camino 1.5</td>
-							<td>OSX.3+</td>
-							<td class="center">1.8</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Gecko</td>
-							<td>Netscape 7.2</td>
-							<td>Win 95+ / Mac OS 8.6-9.2</td>
-							<td class="center">1.7</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Gecko</td>
-							<td>Netscape Browser 8</td>
-							<td>Win 98SE+</td>
-							<td class="center">1.7</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Gecko</td>
-							<td>Netscape Navigator 9</td>
-							<td>Win 98+ / OSX.2+</td>
-							<td class="center">1.8</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Gecko</td>
-							<td>Mozilla 1.0</td>
-							<td>Win 95+ / OSX.1+</td>
-							<td class="center">1</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Gecko</td>
-							<td>Mozilla 1.1</td>
-							<td>Win 95+ / OSX.1+</td>
-							<td class="center">1.1</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Gecko</td>
-							<td>Mozilla 1.2</td>
-							<td>Win 95+ / OSX.1+</td>
-							<td class="center">1.2</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Gecko</td>
-							<td>Mozilla 1.3</td>
-							<td>Win 95+ / OSX.1+</td>
-							<td class="center">1.3</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Gecko</td>
-							<td>Mozilla 1.4</td>
-							<td>Win 95+ / OSX.1+</td>
-							<td class="center">1.4</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Gecko</td>
-							<td>Mozilla 1.5</td>
-							<td>Win 95+ / OSX.1+</td>
-							<td class="center">1.5</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Gecko</td>
-							<td>Mozilla 1.6</td>
-							<td>Win 95+ / OSX.1+</td>
-							<td class="center">1.6</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Gecko</td>
-							<td>Mozilla 1.7</td>
-							<td>Win 98+ / OSX.1+</td>
-							<td class="center">1.7</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Gecko</td>
-							<td>Mozilla 1.8</td>
-							<td>Win 98+ / OSX.1+</td>
-							<td class="center">1.8</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Gecko</td>
-							<td>Seamonkey 1.1</td>
-							<td>Win 98+ / OSX.2+</td>
-							<td class="center">1.8</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Gecko</td>
-							<td>Epiphany 2.20</td>
-							<td>Gnome</td>
-							<td class="center">1.8</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Webkit</td>
-							<td>Safari 1.2</td>
-							<td>OSX.3</td>
-							<td class="center">125.5</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Webkit</td>
-							<td>Safari 1.3</td>
-							<td>OSX.3</td>
-							<td class="center">312.8</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Webkit</td>
-							<td>Safari 2.0</td>
-							<td>OSX.4+</td>
-							<td class="center">419.3</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Webkit</td>
-							<td>Safari 3.0</td>
-							<td>OSX.4+</td>
-							<td class="center">522.1</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Webkit</td>
-							<td>OmniWeb 5.5</td>
-							<td>OSX.4+</td>
-							<td class="center">420</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Webkit</td>
-							<td>iPod Touch / iPhone</td>
-							<td>iPod</td>
-							<td class="center">420.1</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Webkit</td>
-							<td>S60</td>
-							<td>S60</td>
-							<td class="center">413</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Presto</td>
-							<td>Opera 7.0</td>
-							<td>Win 95+ / OSX.1+</td>
-							<td class="center">-</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Presto</td>
-							<td>Opera 7.5</td>
-							<td>Win 95+ / OSX.2+</td>
-							<td class="center">-</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Presto</td>
-							<td>Opera 8.0</td>
-							<td>Win 95+ / OSX.2+</td>
-							<td class="center">-</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Presto</td>
-							<td>Opera 8.5</td>
-							<td>Win 95+ / OSX.2+</td>
-							<td class="center">-</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Presto</td>
-							<td>Opera 9.0</td>
-							<td>Win 95+ / OSX.3+</td>
-							<td class="center">-</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Presto</td>
-							<td>Opera 9.2</td>
-							<td>Win 88+ / OSX.3+</td>
-							<td class="center">-</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Presto</td>
-							<td>Opera 9.5</td>
-							<td>Win 88+ / OSX.3+</td>
-							<td class="center">-</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Presto</td>
-							<td>Opera for Wii</td>
-							<td>Wii</td>
-							<td class="center">-</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Presto</td>
-							<td>Nokia N800</td>
-							<td>N800</td>
-							<td class="center">-</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Presto</td>
-							<td>Nintendo DS browser</td>
-							<td>Nintendo DS</td>
-							<td class="center">8.5</td>
-							<td class="center">C/A<sup>1</sup></td>
-						</tr>
-						<tr class="gradeC">
-							<td>KHTML</td>
-							<td>Konqureror 3.1</td>
-							<td>KDE 3.1</td>
-							<td class="center">3.1</td>
-							<td class="center">C</td>
-						</tr>
-						<tr class="gradeA">
-							<td>KHTML</td>
-							<td>Konqureror 3.3</td>
-							<td>KDE 3.3</td>
-							<td class="center">3.3</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeA">
-							<td>KHTML</td>
-							<td>Konqureror 3.5</td>
-							<td>KDE 3.5</td>
-							<td class="center">3.5</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeX">
-							<td>Tasman</td>
-							<td>Internet Explorer 4.5</td>
-							<td>Mac OS 8-9</td>
-							<td class="center">-</td>
-							<td class="center">X</td>
-						</tr>
-						<tr class="gradeC">
-							<td>Tasman</td>
-							<td>Internet Explorer 5.1</td>
-							<td>Mac OS 7.6-9</td>
-							<td class="center">1</td>
-							<td class="center">C</td>
-						</tr>
-						<tr class="gradeC">
-							<td>Tasman</td>
-							<td>Internet Explorer 5.2</td>
-							<td>Mac OS 8-X</td>
-							<td class="center">1</td>
-							<td class="center">C</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Misc</td>
-							<td>NetFront 3.1</td>
-							<td>Embedded devices</td>
-							<td class="center">-</td>
-							<td class="center">C</td>
-						</tr>
-						<tr class="gradeA">
-							<td>Misc</td>
-							<td>NetFront 3.4</td>
-							<td>Embedded devices</td>
-							<td class="center">-</td>
-							<td class="center">A</td>
-						</tr>
-						<tr class="gradeX">
-							<td>Misc</td>
-							<td>Dillo 0.8</td>
-							<td>Embedded devices</td>
-							<td class="center">-</td>
-							<td class="center">X</td>
-						</tr>
-						<tr class="gradeX">
-							<td>Misc</td>
-							<td>Links</td>
-							<td>Text only</td>
-							<td class="center">-</td>
-							<td class="center">X</td>
-						</tr>
-						<tr class="gradeX">
-							<td>Misc</td>
-							<td>Lynx</td>
-							<td>Text only</td>
-							<td class="center">-</td>
-							<td class="center">X</td>
-						</tr>
-						<tr class="gradeC">
-							<td>Misc</td>
-							<td>IE Mobile</td>
-							<td>Windows Mobile 6</td>
-							<td class="center">-</td>
-							<td class="center">C</td>
-						</tr>
-						<tr class="gradeC">
-							<td>Misc</td>
-							<td>PSP browser</td>
-							<td>PSP</td>
-							<td class="center">-</td>
-							<td class="center">C</td>
-						</tr>
-						<tr class="gradeU">
-							<td>Other browsers</td>
-							<td>All others</td>
-							<td>-</td>
-							<td class="center">-</td>
-							<td class="center">U</td>
-						</tr>
+						<?php
+						$user_infos = get_admin_info();
+						$class = 'even';
+						if (!empty($user_infos)) {
+							foreach ($user_infos as $user_info) {
+								$class = ($class == 'even' ? 'odd' : 'even');
+								?>
+								<tr class="<?php echo $class; ?>">
+									<td><?php echo $user_info['first_name']; ?></td>
+									<td><?php echo $user_info['last_name']; ?></td>
+									<td><?php echo $user_info['sale_type']; ?></td>
+									<td><?php echo $user_info['user_type']; ?></td>
+									<td><?php echo $user_info['user_email']; ?></td>
+									<td><?php echo $user_info['user_id']; ?></td>
+									<td class="action">
+										<a data-toggle="modal" data-target=".edit-user-modal" href="#">Edit</a>
+										<a href="">|</a>
+										<a href="#">Delete</a>
+									</td>
+								</tr>
+								<?php
+							}
+						}
+						?>
 					</tbody>
 				</table>
-
+				<div class="button-wrapper">
+					<a class="button" data-toggle="modal" data-target=".new-user-modal" href="#">New User</a>
+				</div>
 			</div>
 		</section>
 	</div>
 </section>
-<?php
+<div class="modal fade new-user-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="note-modal modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title entry-title">Preferred Investor Program <span>Create New User</span></h4>
+			</div>
+			<div class="modal-body">
+				<form action="#" name="frm_new_user" id="frm_new_user">
+					<?php
+					$user_info_fields = get_user_info_fields();
+					if (!empty($user_info_fields)) {
+						foreach ($user_info_fields as $user_info) {
+							if (isset($user_info['wrapper_class'])) {
+								$wrapper_class = $user_info['wrapper_class'];
+							} else {
+								$wrapper_class = 'col-xs-6';
+							}
+							?>
+							<div class='form-item <?php echo $wrapper_class; ?>'>
+								<?php
+								switch ($user_info['type']) {
+									case 'text':
+									case 'email':
+									case 'password':
+										?>
+										<label class='col-xs-5' for='<?php checkbox_get_for($user_info['name']); ?>'><?php echo $user_info['name']; ?></label>
+										<input class='col-xs-7' type='<?php echo $user_info['type']; ?>' id='<?php checkbox_get_for($user_info['name']); ?>' name='<?php checkbox_get_for($user_info['name']); ?>' />
+										<?php
+										break;
+									case 'checkbox':
+										?>
+										<label class='col-xs-3' for='<?php checkbox_get_for($user_info['name']); ?>'><?php echo $user_info['name']; ?></label>
+										<div class='checkbox-group col-xs-9'>
+											<?php
+											foreach ($user_info['value'] as $item) {
+												?>
+												<input type='checkbox' name='<?php checkbox_get_for($user_info['name']) . '_' . checkbox_get_for($item); ?>'  id='<?php checkbox_get_for($user_info['name']) . '_' . checkbox_get_for($item); ?>' />
+												<label for='<?php checkbox_get_for($user_info['name']) . '_' . checkbox_get_for($item); ?>'><?php echo $item; ?></label>
+												<?php
+											}
+											?>
+										</div>
+										<?php
+										break;
+									case 'select':
+										?>
+										<label class='col-xs-5' for='<?php checkbox_get_for($user_info['name']); ?>'><?php echo $user_info['name']; ?></label>
+										<select class='col-xs-7' name='<?php echo $user_info['type']; ?>' id='<?php checkbox_get_for($user_info['name']); ?>'>
+											<?php
+											foreach ($user_info['value'] as $item) {
+												?>
+												<option value='<?php checkbox_get_for($item); ?>'><?php echo $item; ?></option>
+												<?php
+											}
+											?>
+										</select>
+										<?php
+										break;
+									default:
+										break;
+								}
+								?>
+							</div>
+							<?php
+						}
+					}
+					?>
+				</form>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default btn-sm small" data-dismiss="modal">Cancel</button>
+				<button type="button" class="btn btn-primary btn-sm small">Create User</button>
+			</div>
+		</div>
+	</div>
+</div>
 
+<div class="modal fade edit-user-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="note-modal modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title entry-title">Preferred Investor Program <span>Edit User</span></h4>
+			</div>
+			<div class="modal-body">
+				<form action="#" name="frm_new_user" id="frm_new_user">
+					<?php
+					$user_info_fields = get_user_info_fields();
+					if (!empty($user_info_fields)) {
+						foreach ($user_info_fields as $user_info) {
+							if (isset($user_info['wrapper_class'])) {
+								$wrapper_class = $user_info['wrapper_class'];
+							} else {
+								$wrapper_class = 'col-xs-6';
+							}
+							?>
+							<div class='form-item <?php echo $wrapper_class; ?>'>
+								<?php
+								switch ($user_info['type']) {
+									case 'text':
+									case 'email':
+									case 'password':
+										?>
+										<label class='col-xs-5' for='<?php checkbox_get_for($user_info['name']); ?>'><?php echo $user_info['name']; ?></label>
+										<input class='col-xs-7' type='<?php echo $user_info['type']; ?>' id='<?php checkbox_get_for($user_info['name']); ?>' name='<?php checkbox_get_for($user_info['name']); ?>' value='<?php echo $user_info['value']; ?>' />
+										<?php
+										break;
+									case 'checkbox':
+										?>
+										<label class='col-xs-3' for='<?php checkbox_get_for($user_info['name']); ?>'><?php echo $user_info['name']; ?></label>
+										<div class='checkbox-group col-xs-9'>
+											<?php
+											foreach ($user_info['value'] as $item) {
+												?>
+												<input type='checkbox' name='<?php checkbox_get_for($user_info['name']) . '_' . checkbox_get_for($item); ?>'  id='<?php checkbox_get_for($user_info['name']) . '_' . checkbox_get_for($item); ?>' />
+												<label for='<?php checkbox_get_for($user_info['name']) . '_' . checkbox_get_for($item); ?>'><?php echo $item; ?></label>
+												<?php
+											}
+											?>
+										</div>
+										<?php
+										break;
+									case 'select':
+										?>
+										<label class='col-xs-5' for='<?php checkbox_get_for($user_info['name']); ?>'><?php echo $user_info['name']; ?></label>
+										<select class='col-xs-7' name='<?php echo $user_info['type']; ?>' id='<?php checkbox_get_for($user_info['name']); ?>'>
+											<?php
+											foreach ($user_info['value'] as $item) {
+												?>
+												<option value='<?php checkbox_get_for($item); ?>'><?php echo $item; ?></option>
+												<?php
+											}
+											?>
+										</select>
+										<?php
+										break;
+									default:
+										break;
+								}
+								?>
+							</div>
+							<?php
+						}
+					}
+					?>
+				</form>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default btn-sm small" data-dismiss="modal">Cancel</button>
+				<button type="button" class="btn btn-primary btn-sm small">Update User</button>
+			</div>
+		</div>
+	</div>
+</div>
+<?php
 include_once 'footer.php';
