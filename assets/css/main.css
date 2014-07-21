@@ -860,6 +860,9 @@ a{
 #frm_login .text-right{
 	text-align: right;
 }
+#frm_login .text-center{
+	text-align: center;
+}
 
 /*End Login Page*/
 

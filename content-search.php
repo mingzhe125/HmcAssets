@@ -4,7 +4,7 @@
 		<div class="form-item">
 			<label for="sale_type">Sale Type</label>
 			<select name="sale_type" id="sale_type" class="selectpicker">
-				<option value="all">All</option>
+				<option value="">Any</option>
 				<option value="fund">Short Sales</option>
 				<option value="send">Standard Sales</option>
 				<option value="send">REO</option>
@@ -13,7 +13,7 @@
 		<div class="form-item">
 			<label for="beds">Beds</label>
 			<select name="beds" id="beds" class="selectpicker">
-				<option value="">All</option>
+				<option value="">Any</option>
 				<option value="1">1+</option>
 				<option value="2">2+</option>
 				<option value="3">3+</option>
@@ -22,7 +22,7 @@
 		<div class="form-item">
 			<label for="baths">Baths</label>
 			<select name="baths" id="baths" class="selectpicker">
-				<option value="">All</option>
+				<option value="">Any</option>
 				<option value="1">1+</option>
 				<option value="2">2+</option>
 				<option value="3">3+</option>
@@ -31,7 +31,7 @@
 		<div class="form-item">
 			<label for="minsq">min(sqft)</label>
 			<select name="minsq" id="minsq" class="selectpicker">
-				<option value="">All</option>
+				<option value="">Any</option>
 				<option value="1000">1000+</option>
 				<option value="1500">1500+</option>
 				<option value="2000">2000+</option>
@@ -57,7 +57,7 @@
 		</div>
 		<div class="form-item">
 			<label for="county">county</label>
-			<select name="county" id="county" class="selectpicker" multiple title='All' data-live-search="true">
+			<select name="county" id="county" class="selectpicker" multiple title="All" data-live-search="true">
 				<option value="">None</option>
 			</select>
 		</div>

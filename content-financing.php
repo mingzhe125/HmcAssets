@@ -14,9 +14,9 @@
 		<P>
 			<span>Whit McCarthy</span><br/>
 			Business Development<br/>
-			Tital Capital, LLC<br/>
+			Titan Capital, LLC<br/>
 			424.226.6954 Direct<br/>
-			whit.mccarthy@titan-cap.com
+            <a href="mailto:whit.mccarthy@titan-cap.com">whit.mccarthy@titan-cap.com</a>
 		</P>
 	</div>
 	<div class="financing-item col-xs-12">
@@ -24,7 +24,7 @@
 		<p>Civic home loans offers a variety of <span>conventional</span> loan products, competitive rates, and top customer service to fulfill any traditional loan needs.</p>
 		<ul class="navbar-nav">
 			<li><a href="assets/CIVIC_Summary_2014.pdf" target="_blank" id="offer-rings">PRODUCT OFFERINGS</a></li>
-			<li><a href="mailto:hmc@civichomeloans.com" id="contact">CONTACT TITAN CAPITAL</a></li>
+			<li><a href="mailto:hmc@civichomeloans.com" id="contact">CONTACT CIVIC HOME LOANS</a></li>
 			<li><a href="http://www.civichomeloans.com" target="_blank" id="visit-site">VISIT<br/> WEBSITE</a></li>
 		</ul>
 	</div>
@@ -35,7 +35,7 @@
 			Business Development<br/>
 			Civic Home Loans, LLC<br/>
 			424.226.6950 Direct<br/>
-			jack.helfrich@civichomeloans.com
+            <a href="mailto:jack.helfrich@civichomeloans.com">jack.helfrich@civichomeloans.com</a>
 		</P>
 	</div>
 </div>

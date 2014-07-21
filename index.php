@@ -65,11 +65,11 @@
 								<div class="col-xs-12 form-item form-input-item">
 									<input type="password" id="inputPassword" placeholder="Password">
 								</div>
-								<div class="col-xs-12 text-right form-item">
+								<div class="col-xs-12 text-center form-item">
 									<input type="image" src="./assets/img/btn_login.png" name="login" id="login" alt="Login"/>
 								</div>
-								<div class="col-xs-12 forgot-password text-right form-item">
-									<p>Forgot your username and <br/> password? <a href="forgot.php">Click Here</a></p>
+								<div class="col-xs-12 forgot-password text-center form-item">
+									<p><a href="javascript:alert('Sorry, now we are under development of this feature.')">Forgot your username and <br/> password? Click here</a></p>
 								</div>
 							</form>
 						</div>

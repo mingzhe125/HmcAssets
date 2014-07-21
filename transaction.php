@@ -10,13 +10,12 @@ $_SESSION['list_num'] = 39;
 		<!--Top Mark-->
 <?php include_once 'content-dashboard-mark.php'; ?>
 
-		<section class="inner-content col-xs-12">
+        <section class="inner-content col-xs-12" style=" background-color: #fff;height: 600px;">
 			<div class="col-xs-4 primary">
 			</div>
 
 			<!--Listing Box Section-->
 			<div class="col-xs-8 secondary">
-
 			</div>
 		</section>
 	</div>

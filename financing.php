@@ -11,7 +11,7 @@ $_SESSION['note_num'] = 6;
 		<section class="inner-content col-xs-12">
 			<div class="financing-master col-xs-12">
 				<div class="financing-inner col-xs-12">
-					<p class="info">HMC Assets works with our preferred lenders for bridge and traditional loans through TITAN Capital and CIVIC Home Loans respectively ? offering a wide range of products suit all your financing needs.</p>	
+					<p class="info">HMC Assets works with our preferred lenders for bridge and traditional loans through TITAN Capital and CIVIC Home Loans respectively  - offering a wide range of products suit all your financing needs.</p>	
 					<img alt="" class="financing-mark" src="assets/sample/financing.png" />
 					<div class="financing-item first col-xs-6">
 						<h1>TITAN CAPITAL</h1>
@@ -27,7 +27,7 @@ $_SESSION['note_num'] = 6;
 						<p>CIVIC home loans  offers a variety of <span>CONVENTIONAL</span> loan pRODUCTS, competitive rates, and top customer service to fulfill any traditionAl loan needs.</p>
 						<ul class="navbar-nav">
 							<li><a href="assets/CIVIC_Summary_2014.pdf" target="_blank" id="offer-rings">PRODUCT OFFERINGS</a></li>
-							<li><a href="mailto:hmc@civichomeloans.com" id="contact">CONTACT TITAN CAPITAL</a></li>
+							<li><a href="mailto:hmc@civichomeloans.com" id="contact">CONTACT CIVIC HOME LOANS</a></li>
 							<li><a href="http://www.civichomeloans.com" target="_blank" id="visit-site">VISIT<br/> WEBSITE</a></li>
 						</ul>
 					</div>
