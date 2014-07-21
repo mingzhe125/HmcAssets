@@ -6,7 +6,7 @@ $rows = isset($_SESSION['list_num']) ? $_SESSION['list_num'] : 39;
 		<div class="line alpha col-xs-12"></div>
 	</div>
 	<?php for ($i = 1; $i < $rows; $i++): ?>
-		<div class="listing-wrapper <?php echo ($i == 3 ? 'special' : ''); ?>">
+		<div class="listing-wrapper<?php echo ($i == 3 ? ' special' : ''); ?>">
 			<div class="listing-item col-xs-12">
 				<div class="listing-photo">
 					<img src="assets/sample/house_thumb.png" alt="" />
@@ -36,9 +36,9 @@ $rows = isset($_SESSION['list_num']) ? $_SESSION['list_num'] : 39;
 					<a href="javascript:void(0);"></a>
 				</div>
 			</div>
-			<?php if ($i < $rows - 1): ?>
-				<div class="col-xs-12"><div class="line beta col-xs-12"></div></div>
-			<?php endif; ?>
+				
+            <div class="col-xs-12"><div class="line beta col-xs-12"></div></div>
+                
 			<div class="listing-detail">
 				<div class="listing-detail-inner col-xs-12">
 					<div>
