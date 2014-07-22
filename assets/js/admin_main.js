@@ -9,13 +9,6 @@ $(document).ready(function() {
         $('.selectpicker').selectpicker();
     }
 
-    if ($('#frm_login #login').length > 0) {
-        $('#frm_login #login').on('mouseover mousemove', function() {
-            $(this).attr('src', './assets/img/btn_login_hover.png');
-        }).mouseout(function() {
-            $(this).attr('src', './assets/img/btn_login.png');
-        });
-    }
     
     $('.table .action a.disabled').on('mouseover', function() {
         if ($(this).hasClass('disabled')) {

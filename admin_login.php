@@ -62,7 +62,7 @@
                                     <input type="password" id="inputPassword" placeholder="Password">
                                 </div>
                                 <div class="col-xs-12 form-item">
-                                    <input type="image" src="./assets/img/btn_login.png" name="login" id="login" alt="Login"/>
+                                    <input type="image" src="./assets/img/btn_login_hover.png" name="login" id="login" alt="Login"/>
                                 </div>
                                 <div class="col-xs-12 forgot-password form-item">
                                     <p><a href="javascript:alert('Sorry, now we are under development of this feature.')">Forgot your username and <br/> password? Click here</a></p>
