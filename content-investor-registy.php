@@ -8,7 +8,7 @@
                 <?php
                 $investor_info_fields = get_profile_info_fields();
                 if (!empty($investor_info_fields)) {
-                    admin_build_form($investor_info_fields, true);
+                    admin_build_form($investor_info_fields);
                 }
                 ?>
             </div>
