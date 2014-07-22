@@ -149,7 +149,7 @@ $rows = 10;
                                         </div>
                                         <textarea name="add_note" id="add_note"></textarea>
                                         <div class="button-wrapper">
-                                            <button class="add-note" id="add-note">Add Internal Note</button>
+                                            <button class="add-note" id="add-note">ADD INVESTOR FEEDBACK</button>
                                         </div>
                                         <div class='detail-info'>
                                             <div class="box-item">
