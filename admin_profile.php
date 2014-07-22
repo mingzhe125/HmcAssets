@@ -9,7 +9,7 @@ include_once 'admin_header.php';
         <section class="inner-content col-xs-12">
             <ul id="admin_tab" class="nav nav-tabs">
                 <li><a href="admin_dashboard.php">Admin Access</a></li>
-                <li class="active"><a href="admin_profile.php">Investor Profile</a></li>
+                <li class="active"><a href="admin_profile.php">Investor Profiles</a></li>
             </ul>
             <div class="tab-content col-xs-12">
                 <table cellpadding="0" cellspacing="0" border="0" class="table table-striped table-bordered" id="admin_access">
@@ -52,12 +52,13 @@ include_once 'admin_header.php';
                     </tbody>
                 </table>
                 <div class="button-wrapper">
-                    <a class="button" data-toggle="modal" data-target=".new-user-modal" href="#">New User</a>
+                    <a class="button" data-toggle="modal" data-target=".create-profile-modal" href="#">Create Investor Profile</a>
                 </div>
             </div>
         </section>
     </div>
 </section>
+
 <div class="modal fade edit-profile-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="note-modal modal-content">
@@ -71,6 +72,31 @@ include_once 'admin_header.php';
                     $investor_info_fields = get_investor_info_fields();
                     if (!empty($investor_info_fields)) {
                         admin_build_form($investor_info_fields, true);
+                    }
+                    ?>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-sm small" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary btn-sm small">Update</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade create-profile-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="note-modal modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title entry-title">Preferred Investor Program <span>Create Profile</span></h4>
+            </div>
+            <div class="modal-body">
+                <form action="#" name="frm_new_user" id="frm_new_user">
+                    <?php
+                    $investor_info_fields = get_investor_info_fields();
+                    if (!empty($investor_info_fields)) {
+                        admin_build_form($investor_info_fields, false, 2);
                     }
                     ?>
                 </form>
