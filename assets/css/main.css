@@ -643,6 +643,7 @@ a{
 .listing-item > div > p{
     margin: 0px;
     padding: 0px;
+    height: 14px;
 }
 .listing-item .listing-photo img{
     width: 58px;
@@ -784,6 +785,7 @@ a{
     margin-right: 2%;
     text-align: left;
     margin-bottom: 0px;
+    height: 23px;
 }
 .listing-detail .info-item p.one{
     width: 17%;
