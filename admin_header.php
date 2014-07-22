@@ -53,7 +53,7 @@ require_once './include/functions.php';
                         ?>
                         <ul class="nav navbar-nav navbar-right">
                             <li <?php echo ((strpos($current_url, 'admin_dashboard') === false && strpos($current_url, 'admin_profile') === false) ? '' : 'class="active"'); ?>><a class="first" href="admin_dashboard.php">ADMIN DASHBOARD</a></li>
-                            <li <?php echo (strpos($current_url, 'admin_investor') === false ? '' : 'class="active"'); ?>><a href="admin_investor.php">Inverstors Dashboard</a></li>
+                            <li <?php echo (strpos($current_url, 'admin_investor') === false ? '' : 'class="active"'); ?>><a href="admin_investor.php">Investors Dashboard</a></li>
                             <li <?php echo (strpos($current_url, 'admin_financing') === false ? '' : 'class="active"'); ?>><a href="admin_financing.php">FINANCING DASHBOARD</a></li>
                             <li <?php echo (strpos($current_url, 'admin_in_report') === false ? '' : 'class="active"'); ?>><a href="admin_report.php">PROGRAM  REPORTING</a></li>
                             <li <?php echo (strpos($current_url, 'admin_pro_report') === false ? '' : 'class="active"'); ?>><a href="admin_pro_report.php">INVESTORS  REPORTING</a></li>
