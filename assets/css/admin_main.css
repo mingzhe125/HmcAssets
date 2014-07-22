@@ -447,6 +447,7 @@ a{
 }
 .modal-content .form-item textarea{
     border-left: 1px solid #999;
+    margin-left: 15px;
 }
 
 /*Listing Section*/

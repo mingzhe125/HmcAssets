@@ -4,7 +4,7 @@
 		<div class="line top col-xs-12"></div>
 	</div>
 	<div class="investor-properties col-xs-12">
-		<?php for ($i = 1; $i < 6; $i++) : ?>
+		<?php for ($i = 1; $i < 10; $i++) : ?>
 			<div class="investor-property">
 				<img alt="" src="assets/sample/property.png" />	
 			</div>

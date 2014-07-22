@@ -437,8 +437,204 @@ function get_investor_info_fields() {
             'type' => 'textarea',
             'name' => 'Numbers of Investment Properties Purchased in the last 24 months',
             'value' => '',
+            'wrapper_class' => 'col-xs-7',
+            'first_class' => 'col-xs-10',
+            'second_class' => 'col-xs-10'
+        ),
+        array(
+            'type' => 'textarea',
+            'name' => 'Comments',
+            'value' => '',
+            'wrapper_class' => 'col-xs-5',
+            'first_class' => 'col-xs-10',
+            'second_class' => 'col-xs-10'
+        )
+    );
+}
+
+function get_profile_info_fields() {
+    return array(
+        array(
+            'type' => 'text',
+            'name' => 'First Name',
+            'value' => 'GARY',
+            'wrapper_class' => 'col-xs-6'
+        ),
+        array(
+            'type' => 'text',
+            'name' => 'Last Name',
+            'value' => 'MCCARTHY',
+            'wrapper_class' => 'col-xs-6'
+        ),
+        array(
+            'type' => 'text',
+            'name' => 'Company',
+            'value' => 'MCCARTHY',
+            'wrapper_class' => 'col-xs-6',
+            'first_class' => 'col-xs-3',
+            'second_class' => 'col-xs-9'
+        ),
+        array(
+            'type' => 'text',
+            'name' => 'City',
+            'value' => 'YanBian',
+            'wrapper_class' => 'col-xs-3',
+            'first_class' => 'col-xs-4',
+            'second_class' => 'col-xs-8'
+        ),
+        array(
+            'type' => 'text',
+            'name' => 'State',
+            'value' => 'Jilin',
+            'wrapper_class' => 'col-xs-3',
+            'first_class' => 'col-xs-4',
+            'second_class' => 'col-xs-8'
+        ),
+        array(
+            'type' => 'text',
+            'name' => 'Zip',
+            'value' => '133000',
+            'wrapper_class' => 'col-xs-4',
+            'first_class' => 'col-xs-4',
+            'second_class' => 'col-xs-8'
+        ),
+        array(
+            'type' => 'text',
+            'name' => 'Work Phone',
+            'value' => 'GARY',
+            'wrapper_class' => 'col-xs-5',
+            'first_class' => 'col-xs-7',
+            'second_class' => 'col-xs-5'
+        ),
+        array(
+            'type' => 'text',
+            'name' => 'Fax',
+            'value' => 'GARY',
+            'wrapper_class' => 'col-xs-3',
+            'first_class' => 'col-xs-4',
+            'second_class' => 'col-xs-8'
+        ),
+        array(
+            'type' => 'text',
+            'name' => 'Mobile',
+            'value' => 'GARY',
+            'wrapper_class' => 'col-xs-4',
+            'first_class' => 'col-xs-4',
+            'second_class' => 'col-xs-8'
+        ),
+        array(
+            'type' => 'email',
+            'name' => 'Email',
+            'value' => 'changhyang928@gmail.com',
+            'wrapper_class' => 'col-xs-5',
+            'first_class' => 'col-xs-3',
+            'second_class' => 'col-xs-9'
+        ),
+        array(
+            'type' => 'label',
+            'name' => 'States of Interests<span>(Select all that apply)</span>',
+            'wrapper_class' => 'col-xs-12'
+        ),
+        array(
+            'type' => 'select',
+            'name' => get_state_name('NC'),
+            'value' => get_state_counties('NC'),
+            'wrapper_class' => 'col-xs-6',
+            'first_class' => 'col-xs-12',
+            'second_class' => 'col-xs-12',
+            'multi' => true,
+            'search' => true
+        ),
+        array(
+            'type' => 'select',
+            'name' => get_state_name('SC'),
+            'value' => get_state_counties('SC'),
+            'wrapper_class' => 'col-xs-6',
+            'first_class' => 'col-xs-12',
+            'second_class' => 'col-xs-12',
+            'multi' => true,
+            'search' => true
+        ),
+        array(
+            'type' => 'select',
+            'name' => get_state_name('NM'),
+            'value' => get_state_counties('NM'),
+            'wrapper_class' => 'col-xs-6',
+            'first_class' => 'col-xs-12',
+            'second_class' => 'col-xs-12',
+            'multi' => true,
+            'search' => true
+        ),
+        array(
+            'type' => 'select',
+            'name' => get_state_name('WS'),
+            'value' => get_state_counties('WS'),
+            'wrapper_class' => 'col-xs-6',
+            'first_class' => 'col-xs-12',
+            'second_class' => 'col-xs-12',
+            'multi' => true,
+            'search' => true
+        ),
+        array(
+            'type' => 'checkbox',
+            'name' => 'Financing Method <span>(Select all counties that apply)</span>',
+            'value' => array('Cash', 'Hard Money', 'Conventional'),
+            'wrapper_class' => 'col-xs-12',
+            'first_wrapper' => 'col-xs-6',
+            'second_wrapper' => 'col-xs-6'
+        ),
+        array(
+            'type' => 'checkbox',
+            'name' => 'Type of Properties<span>(Select all counties that apply)</span>',
+            'value' => array('Single Family Home', 'Multi Family', 'Commercial'),
+            'wrapper_class' => 'col-xs-12',
+            'first_wrapper' => 'col-xs-6',
+            'second_wrapper' => 'col-xs-6'
+        ),
+        array(
+            'type' => 'checkbox',
+            'name' => 'Preferred Exit Strategy<span>(Select all counties that apply)</span>',
+            'value' => array('Flip', 'Buy & Hold'),
+            'wrapper_class' => 'col-xs-12',
+            'first_wrapper' => 'col-xs-6',
+            'second_wrapper' => 'col-xs-6'
+        ),
+        array(
+            'type' => 'select',
+            'name' => 'Assets available for purchase of investment properties',
+            'value' => array('Less than 100K', '100K', '200K', '300K', '400K'),
             'wrapper_class' => 'col-xs-12',
             'first_class' => 'col-xs-6',
+            'second_class' => 'col-xs-6'
+        ),
+        array(
+            'type' => 'label',
+            'name' => 'Please indicate Your Purchase Price Range',
+            'wrapper_class' => 'col-xs-6',
+            'first_class' => 'col-xs-12'
+        ),
+        array(
+            'type' => 'select',
+            'name' => 'From',
+            'value' => array('any', '100K', '200K', '300K', '400K'),
+            'wrapper_class' => 'col-xs-3',
+            'first_class' => 'col-xs-3',
+            'second_class' => 'col-xs-9'
+        ),
+        array(
+            'type' => 'select',
+            'name' => 'To',
+            'value' => array('any', '100K', '200K', '300K', '400K'),
+            'wrapper_class' => 'col-xs-3',
+            'first_class' => 'col-xs-3',
+            'second_class' => 'col-xs-9'
+        ),
+        array(
+            'type' => 'textarea',
+            'name' => 'Numbers of Investment Properties Purchased in the last 24 months',
+            'value' => '',
+            'wrapper_class' => 'col-xs-12',
+            'first_class' => 'col-xs-10',
             'second_class' => 'col-xs-6'
         ),
         array(
@@ -446,7 +642,7 @@ function get_investor_info_fields() {
             'name' => 'Comments',
             'value' => '',
             'wrapper_class' => 'col-xs-12',
-            'first_class' => 'col-xs-6',
+            'first_class' => 'col-xs-10',
             'second_class' => 'col-xs-6'
         )
     );

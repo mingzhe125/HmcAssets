@@ -1009,6 +1009,8 @@ a{
 .investor-register-box .investor-form{
     padding: 0px;
     font-weight: bold;
+    float: left;
+    padding-bottom: 20px;
 }
 .investor-register-box .investor-form h5{
     margin-bottom: 0px;
@@ -1024,23 +1026,21 @@ a{
 }
 .investor-register-box .investor-form label{
     display: inline-block;
-    width: 30%;
-}
-.investor-register-box .investor-form input{
-    width: 67%;
 }
 .investor-register-box .investor-form .form-item.one label{
     width: 49.5%;
 }
-.investor-register-box .investor-form .form-item.one textarea{
-    width: 100%;
+.investor-register-box .investor-form .form-item textarea{
+    width: 90%;
+    margin-left: 8%;
     height: 50px;
+    margin-top: 1%;
+    border: 1px solid #909090;
 }
 .investor-register-box .investor-form .form-item.three label{
     padding-left: 10px;
 }
 .investor-register-box .investor-form .form-item .btn-group.bootstrap-select{
-    width: 48%;
     margin-bottom: 0px;
 }
 .investor-register-box .investor-form .check-group input{
@@ -1074,6 +1074,7 @@ a{
     font-family: 'HelveticaNeue';
     background-color: #fff;
     margin-bottom: 20px;
+    padding-top: 20px;
 }
 .investor-properties-box .entry-title{
     font-size: 22px;
