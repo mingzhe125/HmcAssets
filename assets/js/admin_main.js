@@ -48,4 +48,26 @@ $(document).ready(function() {
             $(this).html('Disabled').css('color', '#888').removeClass('enabled').addClass('disabled');
         }
     });
+
+    $('.listing-control a').click(function() {
+        if ($(this).parents('.investor-wrapper').hasClass(('expand'))) {
+            $(this).parents('.investor-wrapper').removeClass('expand');
+        } else {
+            $(this).parents('.investor-wrapper').addClass('expand');
+        }
+    });
+
+    if ($('#page-selection-listing').length > 0) {
+        $('#page-selection-listing').bootpag({
+            total: 20,
+            page: 3,
+            maxVisible: 8,
+            href: "#pro-page-{{number}}",
+            leaps: false,
+            next: 'Next',
+            prev: 'Prev'
+        }).on('page', function(event, num) {
+            ;
+        });
+    }
 });
