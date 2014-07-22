@@ -1030,6 +1030,10 @@ a{
 .investor-register-box .investor-form label{
     display: inline-block;
 }
+.investor-register-box .checkbox-group label{
+    position: relative;
+    top: -3px;
+}
 .investor-register-box .investor-form .form-item.one label{
     width: 49.5%;
 }

@@ -568,27 +568,27 @@ function get_profile_info_fields() {
         ),
         array(
             'type' => 'checkbox',
-            'name' => 'Financing Method <span>(Select all counties that apply)</span>',
+            'name' => 'Financing Method <span>(Select all that apply)</span>',
             'value' => array('Cash', 'Hard Money', 'Conventional'),
             'wrapper_class' => 'col-xs-12',
-            'first_wrapper' => 'col-xs-6',
-            'second_wrapper' => 'col-xs-6'
+            'first_wrapper' => 'col-xs-5',
+            'second_wrapper' => 'col-xs-7'
         ),
         array(
             'type' => 'checkbox',
-            'name' => 'Type of Properties<span>(Select all counties that apply)</span>',
+            'name' => 'Type of Properties<span>(Select all that apply)</span>',
             'value' => array('Single Family Home', 'Multi Family', 'Commercial'),
             'wrapper_class' => 'col-xs-12',
-            'first_wrapper' => 'col-xs-6',
-            'second_wrapper' => 'col-xs-6'
+            'first_wrapper' => 'col-xs-5',
+            'second_wrapper' => 'col-xs-7'
         ),
         array(
             'type' => 'checkbox',
-            'name' => 'Preferred Exit Strategy<span>(Select all counties that apply)</span>',
+            'name' => 'Preferred Exit Strategy<span>(Select all that apply)</span>',
             'value' => array('Flip', 'Buy & Hold'),
             'wrapper_class' => 'col-xs-12',
-            'first_wrapper' => 'col-xs-6',
-            'second_wrapper' => 'col-xs-6'
+            'first_wrapper' => 'col-xs-5',
+            'second_wrapper' => 'col-xs-7'
         ),
         array(
             'type' => 'select',

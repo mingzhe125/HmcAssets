@@ -6,7 +6,7 @@
 		<div>
 			5943 Greenfield avenue<br/>
 			Riverside, ca 92506
-			<h1 class="special">price just<br/>reduced by<br/>$10,000!</h1>
+			<h1 class="note">price just<br/>reduced by<br/>$10,000!</h1>
 		</div>
 		<div>
 			<a href="#">Create a Note</a>

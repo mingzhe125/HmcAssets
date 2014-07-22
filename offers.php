@@ -19,7 +19,7 @@ $_SESSION['list_num'] = 25;
 					<div id="map-box">
 						<img src="assets/img/map.jpg" alt="" />
 					</div>
-					<a href="#" class="btn_display_listing">
+                    <a href="search_result_map.php" class="btn_display_listing">
 						<img alt="" src="assets/img/btn_display_listing.png" />
 					</a>
 				</div>
