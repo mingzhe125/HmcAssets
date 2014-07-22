@@ -447,3 +447,185 @@ a{
 .modal-content .form-item textarea{
     border-left: 1px solid #999;
 }
+
+/*Listing Section*/
+.listing-box{
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: 'HelveticaNeue';
+    background-color: #fff;
+    padding-top: 20px;
+}
+.listing-box .message{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'HelveticaNeueLight';
+}
+.listing-box .note-modal .entry-title{
+    font-size: 14px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+.listing-box .note-modal .entry-title span{
+    font-size: 14px;
+}
+.listing-box .note-modal textarea{
+    width: 100%;
+    height: 80px;
+    outline: none;
+}
+.listing-box .line.top{
+    width: 100%;
+    height: 1px;
+    background-color: #bababa;
+    margin-bottom: 10px;
+}
+.listing-box .search-order-box{
+    margin: 5px 0px;
+}
+.listing-box .search-order-item{
+    float: left;
+    width: 23%;
+    margin-right: 10px;
+}
+.listing-box .search-order-item.by_sales_type{
+    float: right;
+    width: 15%;
+    margin-right: 0px;
+}
+
+.listing-box .line.alpha{
+    height: 8px;
+    background-color: #5083a7;
+    margin-bottom: 10px;
+}
+.listing-item{
+    height: 60px;
+    display: table;
+}
+.listing-item > div{
+    display: table-cell;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+.listing-item > div > p{
+    margin: 0px;
+    padding: 0px;
+}
+.listing-item .listing-photo img{
+    width: 58px;
+    height: 38px;
+    border: solid 1px #f7f7f7;
+}
+.listing-item .listing-photo{
+    width: 15%;
+}
+.listing-item .listing-address{
+    width: 31%;
+}
+.listing-item .listing-address .strong{
+    font-family: 'HelveticaNeueBold';
+}
+.listing-item .listing-sale-type{
+    font-family: 'HelveticaNeueBold';
+    width: 7%;
+}
+.listing-item .listing-sale-value{
+    width: 15%;
+}
+.listing-item .listing-sqr-type{
+    font-family: 'HelveticaNeueBold';
+    width: 7%;
+}
+.listing-item .listing-sqr-value{
+    width: 17%;
+}
+.listing-item .listing-control{
+    width: 8%;
+}
+.listing-box .listings .line.beta{
+    height: 5px;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+.listing-item .listing-control a{
+    display: block;
+    width: 25px;
+    height: 24px;
+    background: url('../img/btn_expand.png') transparent no-repeat;
+}
+.listing-wrapper{
+    float: left;
+    width: 100%;
+}
+.listing-wrapper:last-child .line.beta{
+    display: none;
+}
+.listing-wrapper.expand{
+    background-color: #5083a7;
+    position: relative;
+    top: -5px;
+    padding-bottom: 8px;
+}
+.listing-wrapper.expand .listing-item{
+    color: #fff;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+.listing-wrapper.expand .listing-control a{
+    background: url('../img/btn_collapse.png') transparent no-repeat;
+}
+.listing-wrapper.expand .line.beta{
+    display: none;
+}
+
+.listing-wrapper .listing-detail{
+    background-color: #fff;
+    float: left;
+    width: 98%;
+    margin-left: 1%;
+    display: none;
+}
+.listing-wrapper.expand .listing-detail{
+    display: block;
+}
+.listing-wrapper.special p.special{
+    color: #ffde28;
+    font-family: 'HelveticaNeueBold';
+}
+.listing-detail h1.special{
+    font-size: 18px;
+    color: #ff1e00;
+    font-family: 'HelveticaNeueBold';
+}
+/*Investor Page*/
+.investor-top{
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+}
+.investor-top .line{
+    border-bottom: 2px solid #a3a3a3;
+}
+.investor-top .entry-title{
+    border-bottom: none;
+}
+.investor-top .entry-meta{
+    text-align: right;
+}
+.investor-top .entry-meta input{
+    width: 240px;
+    height: 18px;
+    padding: 2px 4px;
+    outline: none;
+    margin-right: 10px;
+}
+.investor-top .entry-meta button{
+    background-color: #c31b1b;
+    border: none;
+    color: #fff;
+    width: 70px;
+    text-align: center;
+    height: 18px;
+}
+/*End investor page*/

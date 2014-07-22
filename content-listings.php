@@ -13,7 +13,7 @@ $rows = isset($_SESSION['list_num']) ? $_SESSION['list_num'] : 39;
 					<img src="assets/sample/house_thumb.png" alt="" />
 				</div>
 				<div class="listing-address">
-					<p class="special">Price Just Reduced by $10,000!</p>
+					<p class="note">Price Just Reduced by $10,000!</p>
 					<p>5943 Greenfield avenue</p>
 					<p class="strong">Riverside, ca 92506</p>
 				</div>
@@ -48,7 +48,7 @@ $rows = isset($_SESSION['list_num']) ? $_SESSION['list_num'] : 39;
 					<div>
 						5943 Greenfield avenue<br/>
 						Riverside, ca 92506
-						<h1 class="special">price just<br/>reduced by<br/>$10,000!</h1>
+						<h1 class="note">price just<br/>reduced by<br/>$10,000!</h1>
 					</div>
 					<div>
 						<a data-toggle="modal" data-target=".bs-example-modal-sm" href="#">Create a Note</a>
