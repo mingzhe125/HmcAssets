@@ -415,6 +415,10 @@ a{
     padding: 0px;
     margin-bottom: 5px;
 }
+.bootstrap-select.btn-group:not(.input-group-btn), .bootstrap-select.btn-group[class*="span"]{
+    padding: 0px;
+    margin-bottom: 0px;
+}
 .modal-content .form-item input, .modal-content .form-item select{
     line-height: 1;
     padding: 1px 3px;

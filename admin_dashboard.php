@@ -58,30 +58,6 @@ include_once 'admin_header.php';
         </section>
     </div>
 </section>
-<div class="modal fade new-user-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="note-modal modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title entry-title">Preferred Investor Program <span>Create New User</span></h4>
-            </div>
-            <div class="modal-body">
-                <form action="#" name="frm_new_user" id="frm_new_user">
-                    <?php
-                    $user_info_fields = get_user_info_fields();
-                    if (!empty($user_info_fields)) {
-                        admin_build_form($user_info_fields);
-                    }
-                    ?>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default btn-sm small" data-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-primary btn-sm small">Create User</button>
-            </div>
-        </div>
-    </div>
-</div>
 
 <div class="modal fade edit-user-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -95,7 +71,7 @@ include_once 'admin_header.php';
                     <?php
                     $user_info_fields = get_user_info_fields();
                     if (!empty($user_info_fields)) {
-                        admin_build_form($user_info_fields, true);
+                        admin_build_form($user_info_fields, true, 1);
                     }
                     ?>
                 </form>
@@ -103,6 +79,31 @@ include_once 'admin_header.php';
             <div class="modal-footer">
                 <button type="button" class="btn btn-default btn-sm small" data-dismiss="modal">Cancel</button>
                 <button type="button" class="btn btn-primary btn-sm small">Update User</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade new-user-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="note-modal modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title entry-title">Preferred Investor Program <span>Create New User</span></h4>
+            </div>
+            <div class="modal-body">
+                <form action="#" name="frm_new_user" id="frm_new_user">
+                    <?php
+                    $user_info_fields = get_user_info_fields();
+                    if (!empty($user_info_fields)) {
+                        admin_build_form($user_info_fields, false, 2);
+                    }
+                    ?>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-sm small" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary btn-sm small">Create User</button>
             </div>
         </div>
     </div>

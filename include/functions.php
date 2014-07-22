@@ -224,8 +224,9 @@ function get_login_info_fields() {
             'value' => array('HMC ASSETS', 'WEDGEWOOD', 'TITAN CAPITAL', 'CIVIC HOME LOANS')
         ),
         array(
-            'type' => '',
-            'name' => ''
+            'type' => 'text',
+            'name' => 'User Name',
+            'value' => 'JHUBBS'
         ),
         array(
             'type' => 'text',
@@ -236,16 +237,6 @@ function get_login_info_fields() {
             'type' => 'text',
             'name' => 'Last Name',
             'value' => 'MCCARTHY'
-        ),
-        array(
-            'type' => 'text',
-            'name' => 'User Name',
-            'value' => 'JHUBBS'
-        ),
-        array(
-            'type' => 'password',
-            'name' => 'Password',
-            'value' => 'JHUBBS'
         ),
         array(
             'type' => 'email',
@@ -422,16 +413,16 @@ function get_investor_info_fields() {
             'name' => 'From',
             'value' => array('any', '100K', '200K', '300K', '400K'),
             'wrapper_class' => 'col-xs-2',
-            'first_class' => 'col-xs-3',
-            'second_class' => 'col-xs-9'
+            'first_class' => 'col-xs-4',
+            'second_class' => 'col-xs-8'
         ),
         array(
             'type' => 'select',
             'name' => 'To',
             'value' => array('any', '100K', '200K', '300K', '400K'),
             'wrapper_class' => 'col-xs-2',
-            'first_class' => 'col-xs-3',
-            'second_class' => 'col-xs-9'
+            'first_class' => 'col-xs-4',
+            'second_class' => 'col-xs-8'
         ),
         array(
             'type' => 'textarea',
@@ -648,7 +639,11 @@ function get_profile_info_fields() {
     );
 }
 
-function admin_build_form($form_info, $edit_flag = false) {
+function admin_build_form($form_info, $edit_flag = false, $num = null) {
+    $suffix = '';
+    if ($num != null) {
+        $suffix = $num;
+    }
     foreach ($form_info as $info_item) {
         if (isset($info_item['wrapper_class'])) {
             $wrapper_class = $info_item['wrapper_class'];
@@ -689,8 +684,8 @@ function admin_build_form($form_info, $edit_flag = false) {
                         <?php
                         foreach ($info_item['value'] as $item) {
                             ?>
-                            <input type='checkbox' name='<?php checkbox_get_for($info_item['name']) . '_' . checkbox_get_for($item); ?>'  id='<?php checkbox_get_for($info_item['name']) . '_' . checkbox_get_for($item); ?>' />
-                            <label for='<?php checkbox_get_for($info_item['name']) . '_' . checkbox_get_for($item); ?>'><?php echo $item; ?></label>
+                            <input type='checkbox' name='<?php checkbox_get_for($info_item['name']) . '_' . checkbox_get_for($item); ?>'  id='<?php checkbox_get_for($info_item['name'].$suffix) . '_' . checkbox_get_for($item); ?>' />
+                            <label for='<?php checkbox_get_for($info_item['name'].$suffix) . '_' . checkbox_get_for($item); ?>'><?php echo $item; ?></label>
                             <?php
                         }
                         ?>
