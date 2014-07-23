@@ -31,15 +31,15 @@ require_once './include/functions.php';
 			<header class="navbar navbar-collapse">
 				<div class="container">
 					<div class="navbar-header col-xs-4">
-						<a class="navbar-brand" href="index.php"><img id="logo" src="assets/img/logo.png" alt="HMC Assets" /></a>
+						<a class="navbar-brand" href="http://www.hmcassets.com"><img id="logo" src="assets/img/logo.png" alt="HMC Assets" /></a>
 					</div>
 					<div class="navbar-collapse collapse navigation col-xs-8">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="index.php">Home</a></li>
-							<li><a href="#about">About Us</a></li>
-							<li><a href="#contact">Financing</a></li>
-							<li><a href="#contact">Contact</a></li>
-							<li class="active"><a href="#contact">Client Access</a></li>
+							<li><a href="http://www.hmcassets.com">Home</a></li>
+							<li><a href="http://www.hmcassets.com/about.html">About Us</a></li>
+							<li><a href="http://www.hmcassets.com/financing.html">Financing</a></li>
+							<li><a href="http://www.hmcassets.com/contact.html">Contact</a></li>
+							<li class="active"><a href="index.php">Client Access</a></li>
 						</ul>
 					</div><!--/.navbar-collapse -->
 				</div>
