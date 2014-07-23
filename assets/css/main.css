@@ -593,19 +593,6 @@ a{
     font-size: 14px;
     font-family: 'HelveticaNeueLight';
 }
-.listing-box .note-modal .entry-title{
-    font-size: 14px;
-    margin-bottom: 0px;
-    padding-bottom: 5px;
-}
-.listing-box .note-modal .entry-title span{
-    font-size: 14px;
-}
-.listing-box .note-modal textarea{
-    width: 100%;
-    height: 80px;
-    outline: none;
-}
 .listing-box .line.top{
     width: 100%;
     height: 1px;
@@ -1114,3 +1101,18 @@ a{
     height: 550px;
 }
 /*End Map Result Box*/
+
+/** note modal */
+.note-modal .entry-title{
+    font-size: 14px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+.note-modal .entry-title span{
+    font-size: 14px;
+}
+.note-modal textarea{
+    width: 100%;
+    height: 80px;
+    outline: none;
+}
